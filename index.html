@@ -78,6 +78,11 @@ body {
 .sb-logo {
   padding: 0 24px 14px;
 }
+.sb-logo-img {
+  background: #fff; border-radius: 6px; padding: 11px 14px;
+  margin-bottom: 14px; display: flex; align-items: center; justify-content: center;
+}
+.sb-logo-img img { width: 100%; max-width: 132px; height: auto; display: block; }
 .sb-logo .sb-brand {
   font-size: 19px; font-weight: 900; color: #fff; letter-spacing: .04em;
 }
@@ -394,6 +399,31 @@ ul.clean.green-bullet li::before { background: var(--green); }
   box-shadow: 0 2px 8px rgba(13,27,62,.05);
 }
 
+/* 図版（フィギュア） */
+.fig {
+  background: var(--white); border: 1px solid var(--border);
+  border-radius: 8px; padding: 14px; box-shadow: 0 2px 8px rgba(13,27,62,.05);
+}
+.fig a { display: block; }
+.fig img {
+  width: 100%; height: auto; display: block; border-radius: 4px;
+}
+.fig figcaption {
+  margin-top: 10px; font-size: 12px; color: var(--ink-lite);
+  display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+}
+.fig figcaption .fc-zoom { color: var(--blue); font-weight: 700; }
+
+/* システムバッジ（CUBE 4システム） */
+.sys-row { display: flex; gap: 10px; flex-wrap: wrap; }
+.sys-chip {
+  flex: 1; min-width: 130px; background: var(--white);
+  border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px;
+  box-shadow: 0 2px 8px rgba(13,27,62,.05);
+}
+.sys-chip .sc-name { font-size: 13px; font-weight: 900; color: var(--navy); }
+.sys-chip .sc-id { font-size: 11.5px; color: var(--ink-lite); margin-top: 2px; }
+
 /* バッジ・ピル */
 .pill {
   display: inline-block; font-size: 11px; font-weight: 700;
@@ -444,6 +474,7 @@ ul.clean.green-bullet li::before { background: var(--green); }
 <!-- ========== サイドバー ========== -->
 <aside class="sidebar" id="sidebar">
   <div class="sb-logo">
+    <div class="sb-logo-img"><img src="benesse-logo%20(1).jpg" alt="Benesse"></div>
     <div class="sb-brand">TBBS Context</div>
     <div class="sb-tag">FOR JYMP ／ 台北支社</div>
   </div>
@@ -459,8 +490,9 @@ ul.clean.green-bullet li::before { background: var(--green); }
     <li><a href="#lc8t"><span class="nav-idx">05</span>LC8T エンジン</a></li>
     <li><a href="#framework"><span class="nav-idx">06</span>P＝O×N×CV−I</a></li>
     <li><a href="#issues"><span class="nav-idx">07</span>事業の課題一覧</a></li>
-    <li><a href="#data"><span class="nav-idx">08</span>データ（FY25 P&L）</a></li>
-    <li><a href="#org"><span class="nav-idx">09</span>組織図</a></li>
+    <li><a href="#cube"><span class="nav-idx">08</span>LC8Tデータ可視化（CUBE）</a></li>
+    <li><a href="#data"><span class="nav-idx">09</span>データ（FY25 P&L）</a></li>
+    <li><a href="#org"><span class="nav-idx">10</span>組織図</a></li>
   </ul>
   <a class="sb-cta" href="https://benessetw.atlassian.net/wiki/spaces/81EltTJXV69c/pages/600900033/forJYMP+2026-05-14" target="_blank" rel="noopener noreferrer">
     <span class="sb-cta-icon">📄</span>
@@ -468,7 +500,7 @@ ul.clean.green-bullet li::before { background: var(--green); }
   </a>
   <div class="sb-foot">
     台北支社事業コンテキスト<br>
-    v2 ／ 2026-05-14<br>
+    v4 ／ 2026-05-14<br>
     出典：Confluence 600900033
   </div>
 </aside>
@@ -487,7 +519,7 @@ ul.clean.green-bullet li::before { background: var(--green); }
       <h1 class="hero-title">台北支社 事業コンテキスト for JYMP</h1>
       <div class="hero-sub">少子化・縮小市場の中で、事業の持続性をどう作るか――その全体像</div>
       <div class="hero-meta">
-        <span>📄 v2 ／ 2026-05-14</span>
+        <span>📄 v4 ／ 2026-05-14</span>
         <span>🏢 ベネッセコーポレーション台北支社</span>
         <span>👥 全51名体制</span>
       </div>
@@ -1078,9 +1110,103 @@ ul.clean.green-bullet li::before { background: var(--green); }
 
     <hr class="divider">
 
-    <!-- ========== 08 データ ========== -->
+    <!-- ========== 08 LC8Tデータ可視化（CUBE） ========== -->
+    <section class="section" id="cube">
+      <div class="sec-label">08 ／ DATA INTEGRATION — CUBE</div>
+      <h2 class="sec-title">🧊 LC8Tデータ可視化への挑戦</h2>
+      <p class="sec-intro">LC8Tを「推測」ではなく「実データ」で回すための統合基盤――それがCUBEです。</p>
+
+      <h3 class="sub-title">CUBEとは何か</h3>
+      <p>LC8Tが機能するためには、4つのシステム（LINE・Community・Super8・TEL）がバラバラに持っているデータを<strong>一つの顧客像に統合</strong>する必要があります。その統合基盤として資訊事業処が構築しているのが <strong>CUBE</strong>（社内CDP：Customer Data Platform）です。</p>
+
+      <h3 class="sub-title">なぜデータ統合が難しいのか</h3>
+      <p>現在台北支社では、顧客に関するデータが複数のシステムに分散しています。それぞれが別々の顧客IDで管理されているため、<strong>同じ顧客が4つのシステムで4つの別人として存在</strong>しており、一連の顧客行動をつなげて見ることができません。</p>
+      <div class="sys-row mt8">
+        <div class="sys-chip"><div class="sc-name">SHOPLINE</div><div class="sc-id">会員ID・購買履歴</div></div>
+        <div class="sys-chip"><div class="sc-name">CRM</div><div class="sc-id">電話営業の接触記録・成約データ</div></div>
+        <div class="sys-chip"><div class="sc-name">LINE</div><div class="sc-id">綁定ユーザーのタグ・行動履歴</div></div>
+        <div class="sys-chip"><div class="sc-name">Super8</div><div class="sc-id">配信への反応データ</div></div>
+      </div>
+      <div class="note-box orange-note mt16">
+        <span class="nb-title">統合できないと何が見えないか</span>
+        「このLINEユーザーがWebで商品を買い、後に電話で追加購入した」という一連の顧客行動を<em>つなげて見ることができない</em>状態。これがLC8Tの効果検証を阻む最大のボトルネックです。
+      </div>
+
+      <h3 class="sub-title">客戶歸戶（Identity Resolution）の設計</h3>
+      <p>この問題を解決するために設計されたのが「客戶歸戶」の仕組みです。各システムが持つ <strong>LINE ID・EMAIL・電話番号・会員ID</strong> を照合キー（Match Keys）として使い、異なるシステム上の同一人物を「<strong>統一Customer ID（家庭／単位）</strong>」として名寄せします。</p>
+      <figure class="fig mt8">
+        <a href="data-integration%20(1).jpg" target="_blank" rel="noopener noreferrer">
+          <img src="data-integration%20(1).jpg" alt="客戶歸戶與銷貨資料關聯圖（升級版）">
+        </a>
+        <figcaption>
+          <span>図：客戶歸戶與銷貨資料關聯圖（升級版）― 可歸戶訂單 ＆ 不可歸戶訂單（匿名／團購／Shopee 等）</span>
+          <span class="fc-zoom">クリックで拡大 →</span>
+        </figcaption>
+      </figure>
+      <p class="mt16">名寄せに成功した顧客は<strong>歸戶主檔（統合顧客マスタ）</strong>に集約され、購買履歴・LINE行動・電銷履歴・子どもの月齢情報が一つの顧客像として見えるようになります。一方、Match Keysでは照合できない注文（匿名購買・Shopee経由・手機番号未提供等）は Customer ID＝NULL として保持されます。</p>
+      <div class="grid-2 mt8">
+        <div class="note-box green-note">
+          <span class="nb-title">可歸戶訂單</span>
+          Customer ID が NULL ではない注文。会員IDと相互に紐づけ、<em>顧客単位の分析</em>が可能。
+        </div>
+        <div class="note-box">
+          <span class="nb-title">不可歸戶訂單（匿名／團購／Shopee 等）</span>
+          Customer ID＝NULL。注文資料は保持し、<em>商品別・チャネル別・取引量級の分析</em>に活用。
+        </div>
+      </div>
+      <p class="mt16">この2系統を合わせて初めて<strong>完全な販売視角</strong>が得られる、という設計になっています。</p>
+
+      <h3 class="sub-title green-bar">現在の進捗と構造</h3>
+      <div class="grid-4 mt8 mb16">
+        <div class="kpi-card"><div class="kpi-lbl">統合済みテーブル</div><div class="kpi-num blue">16</div><div class="kpi-sub">テーブル</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">統合データ量</div><div class="kpi-num green">約875MB</div><div class="kpi-sub">LC8Tのほぼ全行動履歴</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">構築主体</div><div class="kpi-num" style="font-size:20px">資訊事業処</div><div class="kpi-sub">社内CDP</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">未完成テーブル</div><div class="kpi-num orange">仕様策定中</div><div class="kpi-sub">配信効果測定系が中心</div></div>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-head"><span class="ch-tag">統合済み</span> 主なテーブル</div>
+          <div class="card-body">
+            <ul class="clean green-bullet" style="margin-bottom:0">
+              <li>歸戶主檔（統合顧客マスタ）</li>
+              <li>商店会員主檔</li>
+              <li>LINE会員 ／ LINE会員標籤表</li>
+              <li>小孩主檔（子どもの月齢情報）</li>
+              <li>銷貨単</li>
+              <li>電銷名単明細表</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-head"><span class="ch-tag">未完成</span> 仕様策定中・未取得</div>
+          <div class="card-body">
+            <ul class="clean red-bullet" style="margin-bottom:0">
+              <li>LINE群発主檔 ／ LINE群発記録<br><span style="font-size:11.5px;color:var(--ink-lite)">（配信施策の効果測定に必要）</span></li>
+              <li>LINE対話記録</li>
+              <li>電話録音記録</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="sub-title">この取り組みが実現すると何が変わるか</h3>
+      <p>CUBEが完成しデータが統合された状態になると、LC8Tの <strong>P＝O×N×CV−I</strong> フレームにおける各変数を<strong>実データで検証</strong>できるようになります。</p>
+      <div class="grid-3 mt8">
+        <div class="qa-item"><div class="qa-q" style="border-radius:6px">どのBCL獲得チャネルが最もCV率の高い顧客を生んでいるか？</div></div>
+        <div class="qa-item"><div class="qa-q" style="border-radius:6px">高意欲タグが付いた顧客の実際の成約率はどのくらいか？</div></div>
+        <div class="qa-item"><div class="qa-q" style="border-radius:6px">電話営業と自然流量でLTVにどのくらい差があるか？</div></div>
+      </div>
+      <div class="result-box mt16">
+        <div class="rb-label">CUBEの本質的な目標</div>
+        <div class="rb-big">こうした問いに対して、<em>推測ではなくデータで答えられる状態</em>を作ること。</div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ========== 09 データ ========== -->
     <section class="section" id="data">
-      <div class="sec-label">08 ／ DATA — FY25 全社 P&L</div>
+      <div class="sec-label">09 ／ DATA — FY25 全社 P&L</div>
       <h2 class="sec-title">📊 データで見るFY25</h2>
       <p class="sec-intro">各セクションで説明した事業の「実際の規模感」をここで確認。数字はグラフと表の両方で示しています。</p>
 
@@ -1290,9 +1416,9 @@ ul.clean.green-bullet li::before { background: var(--green); }
 
     <hr class="divider">
 
-    <!-- ========== 09 組織図 ========== -->
+    <!-- ========== 10 組織図 ========== -->
     <section class="section" id="org">
-      <div class="sec-label">09 ／ ORGANIZATION CHART</div>
+      <div class="sec-label">10 ／ ORGANIZATION CHART</div>
       <h2 class="sec-title">🏢 台北支社 組織図</h2>
       <p class="sec-intro">全51名（処長6名・研修2名含む）／ AIC4準拠 v3。処ヘッダーをクリックで開閉、メンバー名をクリックで職務詳細を展開できます。</p>
       <iframe class="org-frame" id="orgFrame" title="台北支社 組織図" srcdoc="<!DOCTYPE html>
@@ -1657,7 +1783,7 @@ function toggleMember(card) {
       </div>
       <div class="pf-row">
         <span>台北支社事業コンテキスト for JYMP</span>
-        <span>v2 ／ 2026-05-14</span>
+        <span>v4 ／ 2026-05-14</span>
         <span>出典：Confluence 600900033（日本同事共享スペース）</span>
       </div>
       <p style="margin-top:10px;font-size:11.5px;color:var(--ink-lite)">本ページのスタイルは Benesse LC8T HTML スタイルガイドに準拠。データは FY25 全社P&Lに基づく。</p>
