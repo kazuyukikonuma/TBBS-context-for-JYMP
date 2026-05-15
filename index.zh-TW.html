@@ -1,0 +1,1650 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>台北分公司 事業脈絡｜2026-05</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --benesse-blue:   #00569A;
+  --benesse-red:    #E60012;
+  --benesse-yellow: #FFF100;
+  --benesse-green:  #009944;
+  --bn-blue: #00569A;
+  --bn-gold: #FFF100;
+  --bn-red:  #E60012;
+
+  --navy:     #0D1B3E;
+  --navy-mid: #1A2E5A;
+  --navy-lit: #2A4480;
+
+  --blue:     #00569A;
+  --blue-lit: #2A7AB8;
+  --blue-pale:#E5EEF6;
+
+  --orange:      #E60012;
+  --orange-pale: #FCE5E7;
+  --gold:        #FFF100;
+  --gold-pale:   #FFFCC2;
+  --green:       #009944;
+  --green-pale:  #E2F3E9;
+  --red:         #E60012;
+  --red-pale:    #FCE5E7;
+
+  --bg:       #F8FAFC;
+  --white:    #FFFFFF;
+  --ink:      #0D1B3E;
+  --ink-mid:  #1A1A1A;
+  --ink-lite: #5B6478;
+  --border:   #D8DEE8;
+
+  --sidebar-w: 260px;
+}
+
+* , *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  background: var(--bg);
+  color: var(--ink-mid);
+  line-height: 1.8;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0; left: 0; bottom: 0;
+  width: var(--sidebar-w);
+  background: var(--navy);
+  color: #C9D2E3;
+  padding: 28px 0 32px;
+  overflow-y: auto;
+  z-index: 100;
+}
+.sb-logo { padding: 0 24px 14px; }
+.sb-logo-img {
+  background: #fff; border-radius: 6px; padding: 11px 14px;
+  margin-bottom: 14px; display: flex; align-items: center; justify-content: center;
+}
+.sb-logo-img img { width: 100%; max-width: 132px; height: auto; display: block; }
+.sb-logo .sb-brand { font-size: 19px; font-weight: 900; color: #fff; letter-spacing: .04em; }
+.sb-logo .sb-tag { font-size: 11px; color: #8190AE; margin-top: 3px; letter-spacing: .08em; }
+.brand-stripe {
+  display: flex; height: 4px; margin: 12px 24px 22px; border-radius: 2px; overflow: hidden;
+}
+.brand-stripe span { flex: 1; }
+.bs-blue { background: var(--bn-blue); }
+.bs-gold { background: var(--bn-gold); }
+.bs-red  { background: var(--bn-red); }
+
+.sb-nav { list-style: none; }
+.sb-nav li a {
+  display: block;
+  padding: 9px 24px 9px 22px;
+  color: #AAB6CE;
+  text-decoration: none;
+  font-size: 13.5px;
+  border-left: 3px solid transparent;
+  transition: all .15s;
+}
+.sb-nav li a:hover { background: var(--navy-mid); color: #fff; }
+.sb-nav li a.active { background: var(--navy-mid); color: #fff; border-left-color: var(--bn-gold); font-weight: 700; }
+.sb-nav .nav-idx { color: #6E7C9C; font-size: 11px; margin-right: 8px; font-weight: 700; }
+.sb-cta {
+  display: flex; align-items: center; gap: 10px;
+  margin: 26px 18px 0; padding: 12px 14px;
+  background: var(--blue); color: #fff; text-decoration: none;
+  border-radius: 6px; font-size: 13px; font-weight: 700;
+  transition: background .15s;
+}
+.sb-cta:hover { background: var(--blue-lit); }
+.sb-cta-icon { font-size: 16px; flex-shrink: 0; }
+.sb-cta-txt { display: flex; flex-direction: column; line-height: 1.4; }
+.sb-cta-sub { font-size: 10.5px; font-weight: 500; color: #Bcd6ea; letter-spacing: .02em; }
+.sb-foot {
+  margin-top: 20px; padding: 16px 24px 0; border-top: 1px solid var(--navy-lit);
+  font-size: 11px; color: #6E7C9C; line-height: 1.7;
+}
+
+.main { margin-left: var(--sidebar-w); padding: 0 0 80px; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 44px; }
+
+.topbar {
+  position: sticky; top: 0; z-index: 50;
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 60%, var(--navy-lit) 100%);
+  border-bottom: 1px solid rgba(155,200,232,.18);
+  height: 46px;
+  display: flex; align-items: center; justify-content: center;
+}
+.topbar-eyebrow {
+  font-size: 12px; letter-spacing: .22em; color: #9BC8E8; font-weight: 700;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  padding: 0 56px;
+}
+
+.hero {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 60%, var(--navy-lit) 100%);
+  color: #fff;
+  padding: 52px 0 46px;
+  margin-bottom: 44px;
+}
+.hero-title { font-size: 33px; font-weight: 900; margin: 0 0 6px; line-height: 1.35; }
+.hero-sub { font-size: 14px; color: #C9D2E3; }
+.hero-meta { margin-top: 20px; font-size: 12px; color: #8190AE; display: flex; gap: 20px; flex-wrap: wrap; }
+.hero-note {
+  margin-top: 24px; background: rgba(255,255,255,.07);
+  border-left: 3px solid var(--bn-gold);
+  padding: 14px 18px; font-size: 13.5px; color: #E4E9F2; border-radius: 0 6px 6px 0;
+}
+
+.section { margin-bottom: 56px; scroll-margin-top: 64px; }
+.sec-label {
+  font-size: 11.5px; font-weight: 700; letter-spacing: .18em;
+  color: var(--ink-lite); text-transform: uppercase;
+}
+.sec-title {
+  font-size: 25px; font-weight: 900; color: var(--navy);
+  margin: 4px 0 6px; line-height: 1.4;
+}
+.sec-intro { color: var(--ink-lite); font-size: 14px; margin-bottom: 22px; }
+.sub-title {
+  font-size: 18px; font-weight: 700; color: var(--navy);
+  margin: 30px 0 12px; padding-left: 12px; border-left: 4px solid var(--blue);
+}
+.sub-title.green-bar { border-left-color: var(--green); }
+.sub-title.red-bar { border-left-color: var(--red); }
+h4.mini-title { font-size: 15px; font-weight: 700; color: var(--navy); margin: 18px 0 8px; }
+p { margin-bottom: 12px; }
+.section p strong { color: var(--navy); font-weight: 700; }
+
+.card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(13,27,62,.05);
+  overflow: hidden;
+}
+.card-head {
+  padding: 13px 18px;
+  font-weight: 700; font-size: 14.5px; color: var(--navy);
+  border-bottom: 1px solid var(--border);
+  background: #FCFDFE;
+  display: flex; align-items: center; gap: 8px;
+}
+.card-head .ch-tag {
+  font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px;
+  background: var(--blue-pale); color: var(--blue);
+}
+.card-body { padding: 18px; }
+.card-body > p:last-child { margin-bottom: 0; }
+
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+.grid-4 { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; }
+.grid-21 { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
+.grid-12 { display: grid; grid-template-columns: 1fr 2fr; gap: 16px; }
+
+.kpi-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(13,27,62,.05);
+  padding: 16px 18px;
+}
+.kpi-lbl { font-size: 12px; color: var(--ink-lite); font-weight: 700; letter-spacing: .04em; }
+.kpi-num { font-size: 20px; font-weight: 900; color: var(--navy); margin: 4px 0 2px; line-height: 1.3; }
+.kpi-num.blue { color: var(--blue); }
+.kpi-num.green { color: var(--green); }
+.kpi-num.orange { color: var(--red); }
+.kpi-num.red { color: var(--red); }
+.kpi-num.gold { color: var(--green); }
+.kpi-sub { font-size: 12px; color: var(--ink-lite); }
+
+.note-box {
+  background: var(--blue-pale);
+  border-radius: 8px;
+  padding: 15px 18px;
+  font-size: 14px;
+  border: 1px solid #CFE0EF;
+}
+.note-box em { font-style: normal; font-weight: 700; color: var(--blue); }
+.note-box.orange-note { background: var(--orange-pale); border-color: #F6CDD1; }
+.note-box.orange-note em { color: var(--red); }
+.note-box.green-note { background: var(--green-pale); border-color: #C5E6D3; }
+.note-box.green-note em { color: var(--green); }
+.note-box .nb-title { font-weight: 700; color: var(--navy); display: block; margin-bottom: 4px; }
+
+.result-box, .banner, .closing-block {
+  background: var(--navy);
+  color: #E4E9F2;
+  border-radius: 8px;
+  padding: 22px 26px;
+}
+.result-box em, .banner em, .closing-block em {
+  font-style: normal; font-weight: 900; color: #FFE066;
+}
+.result-box .rb-label {
+  font-size: 11.5px; letter-spacing: .16em; color: #9BC8E8; font-weight: 700;
+  text-transform: uppercase; margin-bottom: 8px;
+}
+.result-box .rb-big { font-size: 19px; font-weight: 900; color: #fff; line-height: 1.6; }
+
+.stat-item { margin-bottom: 14px; }
+.stat-item:last-child { margin-bottom: 0; }
+.stat-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px; }
+.stat-lbl { font-size: 13px; color: var(--ink-mid); font-weight: 500; }
+.stat-val { font-size: 15px; font-weight: 900; color: var(--navy); }
+.stat-bar-bg { height: 9px; background: #EAEFF5; border-radius: 5px; overflow: hidden; }
+.stat-bar { height: 100%; background: var(--blue); border-radius: 5px; }
+.stat-bar.green { background: var(--green); }
+.stat-bar.gold  { background: var(--gold); }
+.stat-bar.red   { background: var(--red); }
+
+.pipe-flow { display: flex; align-items: stretch; gap: 0; flex-wrap: wrap; }
+.pipe-step {
+  flex: 1; min-width: 140px;
+  background: var(--white); border: 1px solid var(--border);
+  border-radius: 8px; padding: 13px 14px; text-align: center;
+  box-shadow: 0 2px 8px rgba(13,27,62,.05);
+}
+.pipe-step .ps-key { font-size: 20px; font-weight: 900; color: var(--blue); }
+.pipe-step .ps-name { font-size: 12px; font-weight: 700; color: var(--navy); margin: 2px 0; }
+.pipe-step .ps-desc { font-size: 11.5px; color: var(--ink-lite); line-height: 1.55; }
+.pipe-arrow {
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px; color: var(--blue-lit); padding: 0 6px; font-weight: 700;
+}
+
+.formula-box {
+  background: var(--navy); color: #fff;
+  border-radius: 8px; padding: 26px;
+}
+.formula {
+  font-size: 27px; font-weight: 900; text-align: center; letter-spacing: .02em;
+  margin-bottom: 6px;
+}
+.formula .f-accent { color: #FFE066; }
+.formula-cap { text-align: center; font-size: 12px; color: #9BC8E8; margin-bottom: 20px; }
+.formula-sub { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; }
+.fvar {
+  background: rgba(255,255,255,.07); border-radius: 6px; padding: 14px;
+  border-top: 3px solid var(--blue-lit);
+}
+.fvar .fv-key { font-size: 18px; font-weight: 900; color: #fff; }
+.fvar .fv-name { font-size: 12px; color: #9BC8E8; font-weight: 700; margin-bottom: 5px; }
+.fvar .fv-desc { font-size: 11.5px; color: #C9D2E3; line-height: 1.6; }
+
+.qa-item { margin-bottom: 12px; }
+.qa-q {
+  background: var(--blue-pale); border-radius: 6px 6px 0 0;
+  padding: 11px 16px; font-weight: 700; color: var(--blue); font-size: 14px;
+}
+.qa-q::before { content: "Q: "; font-weight: 900; }
+.qa-a {
+  background: var(--white); border: 1px solid var(--border); border-top: none;
+  border-radius: 0 0 6px 6px; padding: 13px 16px; font-size: 13.5px;
+}
+.qa-a::before { content: "A: "; font-weight: 900; color: var(--navy); }
+
+.tbl-wrap { overflow-x: auto; border-radius: 8px; border: 1px solid var(--border); }
+table.data-tbl {
+  width: 100%; border-collapse: collapse; background: var(--white); font-size: 13px;
+}
+table.data-tbl th {
+  background: var(--navy); color: #fff; font-weight: 700;
+  padding: 9px 12px; text-align: left; white-space: nowrap;
+}
+table.data-tbl td {
+  padding: 8px 12px; border-bottom: 1px solid #EDF1F6;
+}
+table.data-tbl tr:last-child td { border-bottom: none; }
+table.data-tbl tr.row-total td {
+  background: var(--blue-pale); font-weight: 900; color: var(--navy);
+}
+table.data-tbl td.num, table.data-tbl th.num { text-align: right; font-variant-numeric: tabular-nums; }
+table.data-tbl tbody tr:hover td { background: #F4F8FB; }
+
+.dtag {
+  display: inline-block; font-size: 11px; font-weight: 700;
+  padding: 2px 9px; border-radius: 4px; margin: 2px 4px 2px 0;
+}
+.dtag-mg { background: #EDE7F5; color: #6A3FA0; }
+.dtag-me { background: #F5E3DC; color: #B03010; }
+.dtag-ma { background: #DCE9F8; color: #0066CC; }
+.dtag-md { background: #DDF0E4; color: #0E8A4A; }
+.dtag-tm { background: #F2EAD0; color: #8A6800; }
+
+ul.clean { list-style: none; }
+ul.clean li {
+  position: relative; padding-left: 20px; margin-bottom: 8px; font-size: 13.5px;
+}
+ul.clean li::before {
+  content: ""; position: absolute; left: 4px; top: 11px;
+  width: 6px; height: 6px; border-radius: 50%; background: var(--blue);
+}
+ul.clean.red-bullet li::before { background: var(--red); }
+ul.clean.green-bullet li::before { background: var(--green); }
+
+.issue-card {
+  background: var(--white); border: 1px solid var(--border);
+  border-left: 4px solid var(--red); border-radius: 6px;
+  padding: 14px 16px; margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(13,27,62,.05);
+}
+.issue-card .ic-head { font-weight: 700; color: var(--navy); font-size: 14px; margin-bottom: 6px; }
+.issue-card .ic-head::before {
+  content: "⚠"; color: var(--red); margin-right: 6px;
+}
+
+.org-frame {
+  width: 100%; height: 820px; border: 1px solid var(--border);
+  border-radius: 8px; background: #F5F4F0;
+  box-shadow: 0 2px 8px rgba(13,27,62,.05);
+}
+
+.fig {
+  background: var(--white); border: 1px solid var(--border);
+  border-radius: 8px; padding: 14px; box-shadow: 0 2px 8px rgba(13,27,62,.05);
+}
+.fig a { display: block; }
+.fig img { width: 100%; height: auto; display: block; border-radius: 4px; }
+.fig figcaption {
+  margin-top: 10px; font-size: 12px; color: var(--ink-lite);
+  display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+}
+.fig figcaption .fc-zoom { color: var(--blue); font-weight: 700; }
+
+.sys-row { display: flex; gap: 10px; flex-wrap: wrap; }
+.sys-chip {
+  flex: 1; min-width: 130px; background: var(--white);
+  border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px;
+  box-shadow: 0 2px 8px rgba(13,27,62,.05);
+}
+.sys-chip .sc-name { font-size: 13px; font-weight: 900; color: var(--navy); }
+.sys-chip .sc-id { font-size: 11.5px; color: var(--ink-lite); margin-top: 2px; }
+
+.pill {
+  display: inline-block; font-size: 11px; font-weight: 700;
+  padding: 2px 10px; border-radius: 10px; background: var(--blue-pale); color: var(--blue);
+}
+.pill.green { background: var(--green-pale); color: var(--green); }
+.pill.red   { background: var(--red-pale); color: var(--red); }
+
+.mt8  { margin-top: 8px; }
+.mt16 { margin-top: 16px; }
+.mt24 { margin-top: 24px; }
+.mt32 { margin-top: 32px; }
+.mb16 { margin-bottom: 16px; }
+
+.divider { height: 1px; background: var(--border); margin: 36px 0; border: none; }
+
+.page-footer {
+  margin-top: 50px; padding: 24px 0; border-top: 1px solid var(--border);
+  font-size: 12px; color: var(--ink-lite);
+}
+.page-footer .pf-row { display: flex; flex-wrap: wrap; gap: 18px; }
+
+@media (max-width: 900px) {
+  .sidebar { transform: translateX(-100%); transition: transform .25s; }
+  .sidebar.open { transform: translateX(0); }
+  .main { margin-left: 0; }
+  .wrap { padding: 0 20px; }
+  .grid-2, .grid-3, .grid-4, .grid-21, .grid-12,
+  .formula-sub { grid-template-columns: 1fr; }
+  .hero-title { font-size: 25px; }
+  .menu-btn { display: flex; }
+}
+.menu-btn {
+  display: none; position: fixed; top: 14px; left: 14px; z-index: 200;
+  width: 42px; height: 42px; border-radius: 8px; background: var(--navy);
+  color: #fff; border: none; font-size: 18px; cursor: pointer;
+  align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(13,27,62,.25);
+}
+</style>
+</head>
+<body>
+
+<button class="menu-btn" id="menuBtn" aria-label="選單">☰</button>
+
+<!-- ========== 側邊欄 ========== -->
+<aside class="sidebar" id="sidebar">
+  <div class="sb-logo">
+    <div class="sb-logo-img"><img src="benesse-logo%20(1).jpg" alt="Benesse"></div>
+    <div class="sb-brand">TBBS Context</div>
+    <div class="sb-tag">對外脈絡資料 ／ 台北分公司</div>
+  </div>
+  <div class="brand-stripe">
+    <span class="bs-blue"></span><span class="bs-gold"></span><span class="bs-red"></span>
+  </div>
+  <ul class="sb-nav" id="sbNav">
+    <li><a href="#intro"><span class="nav-idx">00</span>前言</a></li>
+    <li><a href="#transition"><span class="nav-idx">01</span>公司的轉變</a></li>
+    <li><a href="#tbbs"><span class="nav-idx">02</span>TBBS 策略是什麼</a></li>
+    <li><a href="#pillars"><span class="nav-idx">03</span>三大事業支柱</a></li>
+    <li><a href="#channels"><span class="nav-idx">04</span>銷售通路</a></li>
+    <li><a href="#lc8t"><span class="nav-idx">05</span>LC8T 引擎</a></li>
+    <li><a href="#framework"><span class="nav-idx">06</span>P＝O×N×CV−I</a></li>
+    <li><a href="#issues"><span class="nav-idx">07</span>事業課題一覽</a></li>
+    <li><a href="#cube"><span class="nav-idx">08</span>LC8T 資料整合（CUBE）</a></li>
+    <li><a href="#data"><span class="nav-idx">09</span>事業結構概觀</a></li>
+    <li><a href="#org"><span class="nav-idx">10</span>組織圖</a></li>
+  </ul>
+  <a class="sb-cta" href="https://benessetw.atlassian.net/wiki/spaces/81EltTJXV69c/pages/600900033/forJYMP+2026-05-14" target="_blank" rel="noopener noreferrer">
+    <span class="sb-cta-icon">📄</span>
+    <span class="sb-cta-txt">開啟 Confluence 原文<span class="sb-cta-sub">2026-05 →</span></span>
+  </a>
+  <div class="sb-foot">
+    台北分公司事業脈絡<br>
+    v ／ 2026-05<br>
+    出處：內部 Confluence
+  </div>
+</aside>
+
+<!-- ========== 主內容 ========== -->
+<main class="main">
+
+  <header class="topbar">
+    <div class="topbar-eyebrow">BENESSE TAIPEI BRANCH ／ BUSINESS CONTEXT</div>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="wrap">
+      <h1 class="hero-title">台北分公司 事業脈絡</h1>
+      <div class="hero-sub">在少子化與市場萎縮的環境中，如何打造事業的可持續性——這份文件呈現的是整體輪廓。</div>
+      <div class="hero-meta">
+        <span>📄 v ／ 2026-05</span>
+        <span>🏢 Benesse Corporation 台北分公司</span>
+      </div>
+      <div class="hero-note">
+        本文件提供台北分公司事業全貌的脈絡說明，作為跨部門共通理解的基礎。
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+
+    <!-- ========== 00 前言 ========== -->
+    <section class="section" id="intro">
+      <div class="sec-label">INTRODUCTION</div>
+      <h2 class="sec-title">本文件的閱讀方式</h2>
+      <p class="sec-intro">本文件以「公司如何演變 → 如何賺錢 → 如何銷售 → 目前的課題」為主軸，依序串成一條閱讀脈絡。</p>
+      <div class="grid-3">
+        <div class="card"><div class="card-body">
+          <div class="pill">STEP 1</div>
+          <h4 class="mini-title">掌握整體輪廓</h4>
+          <p style="margin:0;font-size:13px;color:var(--ink-lite)">依序閱讀公司沿革、TBBS 策略、三大支柱、銷售通路、LC8T 與經營框架。</p>
+        </div></div>
+        <div class="card"><div class="card-body">
+          <div class="pill green">STEP 2</div>
+          <h4 class="mini-title">找出關注的課題</h4>
+          <p style="margin:0;font-size:13px;color:var(--ink-lite)">從「事業課題一覽」中，找到自己想要深入了解或思考的主題。</p>
+        </div></div>
+        <div class="card"><div class="card-body">
+          <div class="pill red">STEP 3</div>
+          <h4 class="mini-title">深入理解</h4>
+          <p style="margin:0;font-size:13px;color:var(--ink-lite)">搭配內部其他資料或對談，進一步釐清背景與行動方向。</p>
+        </div></div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ========== 01 公司的轉變 ========== -->
+    <section class="section" id="transition">
+      <div class="sec-label">01 ／ COMPANY TRANSITION</div>
+      <h2 class="sec-title">🏗️ 公司如何一路演變至今</h2>
+      <p>Benesse Corporation 台北分公司長年以<strong>巧虎月刊教育講座</strong>為事業核心。每月配送教材的訂閱模式，在最盛時期於台灣幼兒家庭中建立了極高的品牌滲透，巧虎在 0〜6 歲族群的角色認知度名列前茅，是這段歷史累積下來的資產。</p>
+
+      <h3 class="sub-title">為何月刊講座模式難以延續</h3>
+      <p>月刊講座的本質，是「每月有穩定數量的會員持續訂閱」才能成立的事業。會員規模愈大，固定成本被攤薄、利潤愈容易產生。</p>
+      <p>但台灣的少子化逐步改變了這個前提。出生人數持續下降，每年新進入市場的潛在會員家庭數量也隨之減少。</p>
+      <p>不只如此，月刊講座模式本身還存在幾個結構性問題。</p>
+      <div class="grid-2 mt8">
+        <div class="note-box orange-note">
+          <span class="nb-title">① 獲取新客的成本偏高</span>
+          要持續取得新會員，必須投入大量廣告費與電話行銷成本。在市場萎縮的情況下仍需維持相同投入，逐漸演變成一場<em>消耗戰</em>。
+        </div>
+        <div class="note-box orange-note">
+          <span class="nb-title">② 每月教材的製作成本難以縮減</span>
+          會員減少，但教材製作成本並不會等比下降，導致<em>單一會員的攤提成本逐年上升</em>。
+        </div>
+      </div>
+      <p class="mt16">這些因素疊加之下，<strong>月刊講座近年已停刊</strong>。</p>
+
+      <h3 class="sub-title green-bar">轉型的陣痛與目前位置</h3>
+      <p>停刊不只是一個商品結束，伴隨而來的是專屬系統、客服中心、大規模營運體制與人事費用的全面檢討。</p>
+      <div class="grid-3 mt8 mb16">
+        <div class="kpi-card">
+          <div class="kpi-lbl">組織規模</div>
+          <div class="kpi-num blue">大幅精簡</div>
+          <div class="kpi-sub">固定成本顯著壓縮</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-lbl">前一年度</div>
+          <div class="kpi-num green">由長年虧損轉為盈餘</div>
+          <div class="kpi-sub">固定費壓縮的初步成果</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-lbl">本年度</div>
+          <div class="kpi-num red">仍處於轉型中</div>
+          <div class="kpi-sub">新模式尚未完全成型</div>
+        </div>
+      </div>
+      <p>模式轉換尚未完成。失去月刊講座這支收入主軸後，新的事業模式還沒有建立起可長期穩定獲利的結構，這是目前的真實狀態。</p>
+      <div class="result-box mt16">
+        <div class="rb-label">結構改革的目標</div>
+        <div class="rb-big">在少子化的市場環境中，仍能<em>確保事業可持續成長</em>的結構。</div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ========== 02 TBBS ========== -->
+    <section class="section" id="tbbs">
+      <div class="sec-label">02 ／ TBBS STRATEGY</div>
+      <h2 class="sec-title">📐 TBBS 策略是什麼</h2>
+      <p>TBBS（Taipei Branch Business Strategy）是台北分公司所推動的事業策略框架名稱。它不是某個組織或部門的名稱，而是「這家公司要朝什麼方向組合事業」的<strong>策略設計思想本身</strong>。</p>
+
+      <div class="note-box mt8">
+        <span class="nb-title">TBBS 的本質定義</span>
+        一句話總結：<em>在少子化、市場萎縮的結構性限制下，確保事業可持續性的策略</em>。不依賴單一商品或單一模式，而是以資料管理顧客關係為基礎，持續提供多元的商品、體驗與內容。這就是 TBBS 的中心思想。
+      </div>
+
+      <h3 class="sub-title">三大事業支柱</h3>
+      <p>目前台北分公司的營收，主要由三大事業支柱所構成。</p>
+      <div class="grid-3 mt8">
+        <div class="card">
+          <div class="card-head"><span class="ch-tag">① 物販</span> 學習・周邊商品</div>
+          <div class="card-body" style="font-size:13px;color:var(--ink-lite)">是全社營收佔比最高的事業。包含主力學習商品、IP 周邊商品、共創 SKU、其他物販（Mirafeel）四大類。</div>
+        </div>
+        <div class="card">
+          <div class="card-head"><span class="ch-tag">② 舞台劇</span> 展演事業</div>
+          <div class="card-body" style="font-size:13px;color:var(--ink-lite)">長年累積的巧虎舞台劇事業，營收規模在三大支柱中名列前茅。</div>
+        </div>
+        <div class="card">
+          <div class="card-head"><span class="ch-tag">③ 授權金</span> IP 授權</div>
+          <div class="card-body" style="font-size:13px;color:var(--ink-lite)">將巧虎 IP 授權給合作企業使用。毛利率極高，幾乎接近零成本的高收益事業。</div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ========== 03 三大支柱 ========== -->
+    <section class="section" id="pillars">
+      <div class="sec-label">03 ／ THREE PILLARS</div>
+      <h2 class="sec-title">解讀三大支柱的營收結構</h2>
+      <p class="sec-intro">物販、舞台劇、授權金──理解每一支柱的「賺錢方式」與「弱點」。</p>
+
+      <div class="card mb16">
+        <div class="card-body">
+          <h4 class="mini-title">三大支柱結構特徵</h4>
+          <p style="font-size:13px;margin:0">三支柱合計構成本分公司多數營收，其中舞台劇營收規模較大，物販次之，授權金規模相對較小但<strong>毛利率最高、近乎零原物料成本</strong>。三者組合形成本分公司收益的基本盤。</p>
+        </div>
+      </div>
+
+      <!-- ① 物販 -->
+      <h3 class="sub-title">① 物販（學習商品・周邊商品）</h3>
+      <p>物販在全社營收中佔比最大。主要分為四個類別。</p>
+      <div class="grid-2 mt8">
+        <div class="card"><div class="card-body">
+          <h4 class="mini-title">主力學習商品</h4>
+          <p style="font-size:13px;margin:0">針對 6 個月到學齡前後的兒童，涵蓋幼兒教育主要主題的教育商品系列，是<strong>行銷引擎（LC8T）的主戰場</strong>，與全公司損益直接連動。</p>
+        </div></div>
+        <div class="card"><div class="card-body">
+          <h4 class="mini-title">IP 周邊商品</h4>
+          <p style="font-size:13px;margin:0">巧虎相關商品與生活周邊商品。台北分公司以採購方角色進貨販售，部分商品由合作廠商自行生產販售。舞台劇現場也是重要販售場域。</p>
+        </div></div>
+        <div class="card"><div class="card-body">
+          <h4 class="mini-title">共創 SKU</h4>
+          <p style="font-size:13px;margin:0">由台北分公司主動發起、與合作夥伴共同開發的新商品。AI 應用巧虎商品、嬰幼兒食品等正在推進中。目標是<strong>從被動授權轉為主動共創</strong>的結構。</p>
+        </div></div>
+        <div class="card"><div class="card-body">
+          <h4 class="mini-title">其他物販（Mirafeel）</h4>
+          <p style="font-size:13px;margin:0">以巧虎的行銷力銷售非巧虎 IP 商品，是對少子化風險的避險，<strong>也是 LC8T 全面運作後最能受益的類別</strong>。</p>
+        </div></div>
+      </div>
+      <div class="note-box green-note mt16">物販整體在三支柱中規模次大，毛利率位居中段。</div>
+
+      <!-- ② 舞台劇 -->
+      <h3 class="sub-title">② 舞台劇（展演事業）</h3>
+      <p>在台北、桃園、新竹、台中、台南、高雄等主要城市巡演。<strong>是三大支柱中營收規模最大的事業</strong>，年度觀演人次達到具規模的水準。</p>
+      <div class="grid-12 mt8">
+        <div class="note-box">
+          <span class="nb-title">競爭優勢的本質＝劇團生態系</span>
+          台北分公司與兩家劇團維持長期合作，並以雙方並列的方式同時控制<em>品質與成本</em>。這套關係累積多年，是新進業者難以複製的進入障礙。
+        </div>
+        <div class="card"><div class="card-body">
+          <h4 class="mini-title">公演型態分四類</h4>
+          <p style="font-size:13px;margin:0 0 6px"><strong>自製大型舞台劇與英語劇</strong>由公司全額承擔成本與風險；<strong>音樂劇與特別公演</strong>則以授權形式由劇團承擔風險；針對大型企業的<strong>包場演出</strong>則是穩定回收固定成本的重要管道。</p>
+        </div></div>
+      </div>
+      <div class="note-box orange-note mt16">
+        <span class="nb-title">需特別留意的成本結構</span>
+        對劇團的報酬採<em>每場固定金額制</em>，因此票房愈滿利潤愈高，空位則直接成為損失。場地確認時間距離演出仍有時間落差，預算多為估算。天氣造成的演出取消風險也由公司承擔。
+      </div>
+
+      <!-- ③ 授權金 -->
+      <h3 class="sub-title">③ 授權金（IP 授權事業）</h3>
+      <p>將巧虎角色 IP 授權給合作企業，從中取得收入。在三大支柱中<strong>毛利率最高、幾乎零原物料成本</strong>，是高收益事業。</p>
+      <h4 class="mini-title">授權對象分為四類</h4>
+      <ul class="clean">
+        <li><strong>MD 商品授權</strong>（嬰幼兒消費用品、營養品、衛生用品等）＝佔授權金收入絕大多數</li>
+        <li><strong>動畫・內容播映授權</strong>＝授權給電視台與影音串流平台</li>
+        <li><strong>空間・遊憩設施授權</strong>＝合作的遊憩樂園每月貢獻穩定授權收入</li>
+        <li><strong>活動・事件授權</strong>＝企業活動與交通機構等合作</li>
+      </ul>
+      <div class="grid-2 mt8">
+        <div class="note-box orange-note">
+          <span class="nb-title">結構性風險① 收入集中</span>
+          少數合作夥伴佔授權金收入相當高的比重，<em>單一合作關係變動將對收入產生顯著影響</em>。
+        </div>
+        <div class="note-box orange-note">
+          <span class="nb-title">結構性風險② 合約到期的空缺</span>
+          主要既存合約於近期到期，預期將造成<em>相當規模的收入缺口</em>，需要新合約補上。
+        </div>
+      </div>
+      <div class="note-box mt16">
+        <span class="nb-title">未來方向＝由被動轉為主動</span>
+        目前多為等待企業上門的被動結構。未來目標是由台北分公司主動發起共同商品開發，同時取得<em>授權收入與銷售毛利</em>，建立主動共創的結構。
+      </div>
+
+      <!-- P&L構造 -->
+      <h3 class="sub-title green-bar">損益結構的簡明讀法</h3>
+      <p>在精簡的組織規模下，人事費、辦公室租金、系統成本等共通費用幾乎固定。三大支柱所能產生的毛利規模，直接決定全公司的損益。</p>
+      <div class="formula-box mt8">
+        <div class="formula">三支柱毛利合計 <span class="f-accent">＞</span> 共通費　→　<span class="f-accent">獲利</span></div>
+        <div class="formula-cap">目前三支柱毛利合計與共通費接近平衡，距離結構性獲利仍有一小段距離。</div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ========== 04 銷售通路 ========== -->
+    <section class="section" id="channels">
+      <div class="sec-label">04 ／ SALES CHANNELS</div>
+      <h2 class="sec-title">🛒 商品如何銷售</h2>
+      <p class="sec-intro">如果三大支柱回答「賣什麼」，銷售通路則回答「怎麼賣」。這也是理解 LC8T 必要性的前提。</p>
+
+      <h3 class="sub-title">物販的通路</h3>
+      <div class="grid-3">
+        <div class="card"><div class="card-body"><h4 class="mini-title">Web（官網・SHOPLINE）</h4><p style="font-size:12.5px;margin:0;color:var(--ink-lite)">顧客自主造訪購買的「自購」通路，購買者資料能完整累積。KOL 團購也在此結帳。</p></div></div>
+        <div class="card"><div class="card-body"><h4 class="mini-title">TM（電話行銷・CRM）</h4><p style="font-size:12.5px;margin:0;color:var(--ink-lite)">與台灣顧客特性契合度高，策略上維持並強化。電話行銷的購買者是最高品質的顧客資產。</p></div></div>
+        <div class="card"><div class="card-body"><h4 class="mini-title">KOL（網紅・團購）</h4><p style="font-size:12.5px;margin:0;color:var(--ink-lite)">KOL 向粉絲推薦並集中下單。用於新品認知擴散與特定 TA 的觸及。</p></div></div>
+        <div class="card"><div class="card-body"><h4 class="mini-title">EC（蝦皮 SHOPEE）</h4><p style="font-size:12.5px;margin:0;color:var(--ink-lite)">在台灣最大 EC 平台販售，觸及進入電商平台搜尋的顧客。</p></div></div>
+        <div class="card"><div class="card-body"><h4 class="mini-title">舞台劇現場販售</h4><p style="font-size:12.5px;margin:0;color:var(--ink-lite)">於演出現場販售周邊商品，是顧客接觸溫度極高的場域。</p></div></div>
+        <div class="card"><div class="card-body"><h4 class="mini-title">遊憩設施現場販售</h4><p style="font-size:12.5px;margin:0;color:var(--ink-lite)">於合作遊憩樂園內進行商品銷售。</p></div></div>
+      </div>
+
+      <div class="grid-2 mt24">
+        <div>
+          <h3 class="sub-title" style="margin-top:0">舞台劇的通路</h3>
+          <ul class="clean">
+            <li><strong>票務平台</strong>＝一般售票的主要通路，複雜的售票作業委由專業平台。</li>
+            <li><strong>企業 B2B（包場）</strong>＝大型企業福委會等場合，是穩定回收固定成本的關鍵。</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="sub-title" style="margin-top:0">IP 授權的通路</h3>
+          <ul class="clean">
+            <li><strong>自有直接合約</strong>＝直接與合作廠商簽約。</li>
+            <li><strong>透過代理商</strong>＝代理商需收取手續費，但能接觸到單獨無法觸及的廠商。</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="sub-title green-bar">舊模式與新模式銷售思維的差異</h3>
+      <div class="grid-2 mt8">
+        <div class="note-box orange-note">
+          <span class="nb-title">舊模式（月刊講座時代）</span>
+          <em>大量廣告費 → 蒐集電話名單 → 電話行銷成交</em>。獲客成本高，必須持續投入廣告才能維持運轉。
+        </div>
+        <div class="note-box green-note">
+          <span class="nb-title">新模式（TBBS 所目標）</span>
+          <em>低成本 LINE 加入 → 透過標籤鎖定高潛力顧客 → Web 自購＋精準電話行銷</em>。電話行銷不取消，但提升撥打對象的精準度以放大成果。
+        </div>
+      </div>
+      <p class="mt16">為了實現這個機制所設計的就是 <strong>LC8T</strong>。</p>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ========== 05 LC8T ========== -->
+    <section class="section" id="lc8t">
+      <div class="sec-label">05 ／ MARKETING ENGINE</div>
+      <h2 class="sec-title">🔗 LC8T 是什麼</h2>
+      <p>LC8T 是由 <strong>LINE × Community × Super8 × TEL</strong> 四個元素組合而成的行銷系統，被設計為支撐三大支柱營收的引擎。</p>
+
+      <div class="note-box mt8">
+        <span class="nb-title">為何需要 LC8T</span>
+        月刊講座時代，「會員身份」是顧客關係的核心；停刊後，必須由我們自己重新打造這套<em>「持續連結顧客」的機制</em>。掌握顧客是誰、孩子目前月齡、對什麼有興趣，並在合適的時機提供合適的商品──不再仰賴龐大廣告費就能達成。這就是 LC8T 的角色。
+      </div>
+
+      <h3 class="sub-title">LC8T 的整體流程</h3>
+      <div class="pipe-flow mt8">
+        <div class="pipe-step"><div class="ps-key">L</div><div class="ps-name">LINE</div><div class="ps-desc">引導顧客加入 LINE 好友（綁定），所有流程的起點。</div></div>
+        <div class="pipe-arrow">›</div>
+        <div class="pipe-step"><div class="ps-key">C</div><div class="ps-name">Community</div><div class="ps-desc">與加入的顧客深化關係的階段。</div></div>
+        <div class="pipe-arrow">›</div>
+        <div class="pipe-step"><div class="ps-key">8</div><div class="ps-name">Super8</div><div class="ps-desc">運用累積的資料引導購買行動。</div></div>
+        <div class="pipe-arrow">›</div>
+        <div class="pipe-step"><div class="ps-key">T</div><div class="ps-name">TEL</div><div class="ps-desc">只針對「最可能購買」的顧客以電話完成最後成交。</div></div>
+      </div>
+
+      <h3 class="sub-title">LC8T 的因果鏈</h3>
+      <p>四個階段不是獨立的，而是前一階段直接提升下一階段精準度的連鎖結構。</p>
+      <div class="result-box mt8">
+        <div class="rb-label">CAUSAL CHAIN</div>
+        <div class="rb-big">BCL 愈多 → <em>Community 的觸及</em>愈廣 → <em>標籤</em>累積愈完整 → <em>Super8 鎖定的精準度</em>提升 → <em>電話行銷成交率</em>提升 → <em>營收</em>提升</div>
+      </div>
+
+      <!-- L段 -->
+      <h3 class="sub-title">L（LINE）──所有流程的起點</h3>
+      <p>加入台北分公司 LINE 官方帳號的顧客，稱為 <strong>BCL（巧虎 LINE 顧客基盤）</strong>。這是不用花廣告費也能直接觸及的唯一數位接點，是最重要的顧客資產。</p>
+      <div class="grid-3 mt8 mb16">
+        <div class="kpi-card"><div class="kpi-lbl">BCL 累積規模</div><div class="kpi-num blue">已建立規模化基盤</div><div class="kpi-sub">長期累積</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">有效 BCL（未封鎖）</div><div class="kpi-num green">維持多數有效</div><div class="kpi-sub">封鎖比率受控</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">年度新增規模</div><div class="kpi-num">透過多元路徑收集</div><div class="kpi-sub">多通路並行</div></div>
+      </div>
+      <h4 class="mini-title">月齡分級的概念</h4>
+      <p><strong>月齡愈低的 BCL，對短期營收與 LTV 最大化的貢獻都最大</strong>──這是本事業的核心特徵。月齡愈低，可立即推薦的商品愈多；關係維繫得愈久，LTV（顧客生涯購買額）也愈大。</p>
+      <div class="tbl-wrap mt8 mb16">
+        <table class="data-tbl">
+          <thead><tr><th>分級</th><th>月齡</th><th>重要度</th><th>定位</th></tr></thead>
+          <tbody>
+            <tr><td><strong>SS</strong></td><td>7〜12M</td><td><span class="pill red">最重要</span></td><td>能立即推薦首購商品、且具有最長的 LTV 潛力</td></tr>
+            <tr><td>S（S1・S2）</td><td>0〜6M／13〜24M</td><td><span class="pill">高</span></td><td>轉換率較高的核心客層</td></tr>
+            <tr><td>A（AA・A2）</td><td>25〜36M／37〜60M</td><td><span class="pill green">中</span></td><td>持續回購的對象</td></tr>
+            <tr><td>B</td><td>61M 以上</td><td>低</td><td>目前營收的支撐高月齡層</td></tr>
+            <tr><td>A1</td><td>孕期</td><td>SS 以下</td><td>產前的潛在客層</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h4 class="mini-title">BCL 的來源（多重路徑）</h4>
+      <p style="font-size:13px;color:var(--ink-lite)">
+        <span class="dtag dtag-ma">Meta 廣告</span>
+        <span class="dtag dtag-md">自有 SNS・YouTube・Baby Mine App</span>
+        <span class="dtag dtag-mg">異業合作（婦幼展・連鎖藥局等）</span>
+        <span class="dtag dtag-tm">第三方資料庫（如 Happy Go 等）</span>
+        <span class="dtag dtag-ma">SHOPLINE 購買時</span>
+        <span class="dtag dtag-md">自然流量</span>
+        <span class="dtag dtag-me">舞台劇現場</span>
+      </p>
+
+      <!-- C段 -->
+      <h3 class="sub-title">C（Community）──深化關係的階段</h3>
+      <p>對加入 LINE 的 BCL，不單方面推銷，而是作為<strong>育兒資訊夥伴</strong>建立關係。同時將「這個人對什麼有興趣」累積為標籤。</p>
+      <div class="grid-12 mt8">
+        <div class="note-box">
+          <span class="nb-title">什麼是標籤</span>
+          顧客點開哪些內容、選擇了哪些選項所留下的反應資料。<em>標籤決定了 LC8T 的精準度</em>，累積愈多，Super8 的鎖定就愈精細。
+        </div>
+        <div>
+          <h4 class="mini-title">具體在做什麼</h4>
+          <p style="font-size:13px">每週固定時間，依孩子月齡推送對應的育兒主題訊息。由 Super8 自動化、依月齡分級調整內容。不是直接推銷商品，而是以該月齡父母當下最在意的議題為核心，<strong>嵌入三選一互動</strong>。整套設計以月齡 × 週次形成<strong>內容矩陣</strong>。</p>
+        </div>
+      </div>
+      <div class="grid-3 mt16">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="mini-title">C 段成效</h4>
+            <p style="font-size:13px;margin:0">內容矩陣的開封率、點擊率、整體轉換率<strong>持續監測中</strong>，是 C 段品質的核心觀察指標。各格主題的命中率仍有落差，<strong>改善循環持續進行</strong>。</p>
+          </div>
+        </div>
+        <div class="card" style="grid-column:span 2"><div class="card-body">
+          <h4 class="mini-title">推送的結構</h4>
+          <p style="font-size:13px;margin:0">以月齡 × 週次組成<strong>內容矩陣結構</strong>。初期由 0〜12M 開始，逐步擴展到 0〜36M。每一格主題的命中率仍有差異，改善循環持續進行中。</p>
+        </div></div>
+      </div>
+
+      <!-- 8段 -->
+      <h3 class="sub-title">8（Super8）──鎖定與引導購買</h3>
+      <p>Super8 是 LC8T 的核心工具。運用 Community 中累積的反應資料（標籤），找出「現在最可能購買」的顧客，並推送商品資訊引導購買。同時並行兩條策略。</p>
+      <div class="grid-2 mt8">
+        <div class="card">
+          <div class="card-head"><span class="ch-tag">策略 A</span> ACTS（自動推送引擎）</div>
+          <div class="card-body">
+            <p style="font-size:12.5px;color:var(--ink-lite);margin-bottom:8px">負責：CX 計劃處・LTV 策略組</p>
+            <p style="font-size:13px">本質是<strong>「在最好的時機，提供最合適的商品」</strong>。從 BCL 加入的瞬間起，依孩子月齡自動啟動推送劇本。以固定週期依 A→B→C 主題逐步提升接觸溫度，高意願顧客自動進入 TEL 名單。</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-head"><span class="ch-tag">策略 B</span> SP 活動（促銷專案）</div>
+          <div class="card-body">
+            <p style="font-size:12.5px;color:var(--ink-lite);margin-bottom:8px">負責：整合行銷處</p>
+            <p style="font-size:13px">配合季節、商品、活動時程，對全體 BCL 或特定條件對象進行促銷推送。包括新品上市告知、季節活動、KOL 連動等。相較 ACTS 強調「個人月齡的自動化」，SP 活動則是<strong>「整體或特定區隔的時機性操作」</strong>。</p>
+          </div>
+        </div>
+      </div>
+      <h4 class="mini-title mt16">ACTS 的推送結構（A→B→C）</h4>
+      <div class="tbl-wrap">
+        <table class="data-tbl">
+          <thead><tr><th>主題</th><th>內容</th><th>目的</th></tr></thead>
+          <tbody>
+            <tr><td><strong>A 主題</strong></td><td>育兒議題・發展資訊</td><td>引起關注、建立信任</td></tr>
+            <tr><td><strong>B 主題</strong></td><td>育兒煩惱・情感共鳴</td><td>深化與顧客的情感連結</td></tr>
+            <tr><td><strong>C 主題</strong></td><td>商品資訊・購買引導</td><td>促成購買行動</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h4 class="mini-title mt16">Super8 的技術組成</h4>
+      <div class="tbl-wrap">
+        <table class="data-tbl">
+          <thead><tr><th>功能</th><th>內容</th></tr></thead>
+          <tbody>
+            <tr><td>標籤管理</td><td>以多維標籤為每位顧客建立反應與屬性紀錄</td></tr>
+            <tr><td>自動旅程（Journeys）</td><td>可依條件設定多條自動推送劇本</td></tr>
+            <tr><td>SuperLink</td><td>以追蹤連結蒐集顧客行為</td></tr>
+            <tr><td>Shopline 串接</td><td>與購買資料連動</td></tr>
+            <tr><td>GA4 串接</td><td>與網站行為資料連動</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- T段 -->
+      <h3 class="sub-title">T（TEL）──最後推一把</h3>
+      <p style="font-size:12.5px;color:var(--ink-lite)">負責：CX 計劃處・CS 戰略組</p>
+      <p>本分公司的商品單價並不低，且不在實體通路販售。家長心中「我家的孩子真的會用嗎」這份不安，僅靠網頁難以化解。<strong>由真人直接對話，依孩子月齡與情境提供細緻說明</strong>，才能真正推一把。</p>
+      <div class="grid-21 mt8">
+        <div class="card"><div class="card-body">
+          <h4 class="mini-title">名單組成與設計</h4>
+          <p style="font-size:13px;margin-bottom:8px">每月生成名單向「有興趣但尚未購買」的顧客撥打。只對已完成 L→C→8 階段、有反應的顧客進行接觸。</p>
+          <ul class="clean" style="margin-top:6px">
+            <li><strong>ACTS 反應者（A 級／B 級）</strong>＝對推送有反應、標籤累積完整的高意願顧客</li>
+            <li><strong>生日名單</strong>＝即將進入特定月齡里程碑的顧客</li>
+            <li><strong>推播開封者</strong>＝近期開啟並點擊 LINE 推送的顧客</li>
+            <li><strong>LINE 選單</strong>＝主動點擊 Rich Menu 的顧客</li>
+            <li><strong>前月未消化名單</strong>＝前月未能接觸完成的延續名單</li>
+          </ul>
+        </div></div>
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div class="kpi-card"><div class="kpi-lbl">月度成交率</div><div class="kpi-num blue">維持中段水位</div><div class="kpi-sub">隨名單組成變動</div></div>
+          <div class="kpi-card"><div class="kpi-lbl">高意願名單成交率</div><div class="kpi-num green">明顯高於整體</div><div class="kpi-sub">標籤精度愈高愈明顯</div></div>
+        </div>
+      </div>
+
+      <div class="closing-block mt24">
+        <div class="rb-label" style="font-size:11.5px;letter-spacing:.16em;color:#9BC8E8;font-weight:700;margin-bottom:8px">LC8T 所追求的樣貌</div>
+        <div class="rb-big" style="font-size:18px;font-weight:900;color:#fff;line-height:1.6">BCL 留存為資產、反應累積為標籤、標籤提升 Super8 精度、進而提升電話行銷成交率。<em>今天做的事提高明天的精度、這個月累積的成果連動下個月</em>──打造一台會隨時間自律成長的行銷引擎，這正是 LC8T 的本質目標。</div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ========== 06 框架 ========== -->
+    <section class="section" id="framework">
+      <div class="sec-label">06 ／ MANAGEMENT FRAMEWORK</div>
+      <h2 class="sec-title">📐 P（LTV）＝ O × N × CV − I</h2>
+      <p>台北分公司用一條公式來思考事業的獲利結構。它是一個經營思考工具，幫助我們持續追問<strong>「動哪一個變數，會讓獲利提升」</strong>。將看似複雜的事業活動拆解為四個變數，讓「目前應該專注哪裡」更為清晰。</p>
+
+      <div class="formula-box mt8">
+        <div class="formula">P（LTV）<span class="f-accent">＝</span> O <span class="f-accent">×</span> N <span class="f-accent">×</span> CV <span class="f-accent">−</span> I</div>
+        <div class="formula-cap">將事業獲利結構拆解為四個變數</div>
+        <div class="formula-sub">
+          <div class="fvar"><div class="fv-key">O</div><div class="fv-name">機會點＝SKU 數 × 溝通時機</div><div class="fv-desc">可提供的商品數量與時機點的組合。ACTS 即是用來最大化此項的設計。</div></div>
+          <div class="fvar"><div class="fv-key">N</div><div class="fv-name">母數＝有效 BCL 數・佔比</div><div class="fv-desc">可觸及的顧客總量，是一切的起點。低月齡層（SS・S）的取得是最重要的課題。</div></div>
+          <div class="fvar"><div class="fv-key">CV</div><div class="fv-name">轉換率＝溝通品質・好感度・標籤精度</div><div class="fv-desc">轉為購買的比例。標籤精度愈高，CV 愈高。</div></div>
+          <div class="fvar"><div class="fv-key">I</div><div class="fv-name">投資額＝BCL 取得・施策成本</div><div class="fv-desc">提升 O・N・CV 所需的成本權衡，是守護短期 EBITDA 的關鍵經營判斷。</div></div>
+        </div>
+      </div>
+
+      <h3 class="sub-title">四變數的相互關係</h3>
+      <div class="note-box mt8">
+        這四個變數並非獨立，而是相互強化的關係。<em>N 增加則 O 的觸及面擴大；O 的時機與 SKU 變得精準則 CV 上升；CV 上升則 I 的效率提高；I 投注於 BCL 取得則 N 又再增加。</em>當這個循環開始運作，事業就會走向自律成長。
+      </div>
+
+      <h3 class="sub-title green-bar">如何使用這個框架</h3>
+      <div class="grid-3 mt8">
+        <div class="qa-item"><div class="qa-q" style="border-radius:6px">這個施策是要動 O、N、CV、I 的哪一個？</div></div>
+        <div class="qa-item"><div class="qa-q" style="border-radius:6px">用這份成本可以讓哪個變數提升多少？</div></div>
+        <div class="qa-item"><div class="qa-q" style="border-radius:6px">目前最大的瓶頸落在哪個變數？</div></div>
+      </div>
+      <p class="mt8">持續追問這些問題，是從「只是把交辦事項完成」進化為<strong>「自己找出課題並主動行動」</strong>的第一步。</p>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ========== 07 課題 ========== -->
+    <section class="section" id="issues">
+      <div class="sec-label">07 ／ BUSINESS ISSUES</div>
+      <h2 class="sec-title">🔍 事業課題一覽</h2>
+      <p class="sec-intro">以「三大支柱事業別」與「LC8T 各階段」兩個切面，整理公司目前面臨的課題。</p>
+
+      <h3 class="sub-title red-bar">第一部：三大支柱的事業別課題</h3>
+
+      <h4 class="mini-title">物販的課題</h4>
+      <div class="issue-card">
+        <div class="ic-head">低月齡層的銷售尚未完整運作</div>
+        <p style="font-size:13px;margin-bottom:6px">目前營收主要由過去的月刊講座會員（高月齡層）所支撐。對轉換率最高、LTV 最大的 SS・S 層（0〜24M）尚未建立有效觸及。</p>
+        <ul class="clean red-bullet" style="margin-top:6px">
+          <li>BCL 中 SS・S 層佔比偏低，可觸及的低月齡顧客母數不足</li>
+          <li>仍偏重電話行銷而較少 Web 自購，顧客自主理解與被說服的機制較弱</li>
+          <li>透過 KOL 購買者尚未有效轉為 BCL，購後關係未持續</li>
+        </ul>
+      </div>
+      <div class="issue-card">
+        <div class="ic-head">SKU 拓展空間正在縮小</div>
+        <p style="font-size:13px;margin-bottom:6px">主力學習商品已涵蓋幼兒教育的多數主題，新 SKU 的開發空間正在縮減。</p>
+        <ul class="clean red-bullet" style="margin-top:6px">
+          <li>以既有 SKU 改版或調價的應對仍在持續，但需要根本性的新突破口</li>
+          <li>由台北分公司主導的共創 SKU 機制尚未完整建立</li>
+          <li>KOL 對非新品的推動力較弱，與 SKU 拓展縮小形成相互制約</li>
+        </ul>
+      </div>
+
+      <h4 class="mini-title mt24">舞台劇的課題</h4>
+      <div class="grid-2">
+        <div class="issue-card" style="margin-bottom:0">
+          <div class="ic-head">宣傳觸及力結構性下降</div>
+          <p style="font-size:13px;margin:0">月刊講座時代隨教材夾入的傳單──最大宣傳工具──已消失，BCL 的規模與品質直接決定宣傳觸及上限。對外部媒體的依賴使成本效率下降。</p>
+        </div>
+        <div class="issue-card" style="margin-bottom:0">
+          <div class="ic-head">現場顧客資料尚未取得</div>
+          <p style="font-size:13px;margin:0">演出現場是接觸溫度最高的場域，但 LINE 加入（BCL 化）與周邊商品購買者資料尚未串回 LC8T。</p>
+        </div>
+      </div>
+      <div class="issue-card mt16">
+        <div class="ic-head">英語劇場地未確定</div>
+        <p style="font-size:13px;margin:0">原使用的小劇場合約已到期，新一年度的英語劇場地尚待確認。</p>
+      </div>
+
+      <h4 class="mini-title mt24">授權金（IP 授權）的課題</h4>
+      <div class="issue-card">
+        <div class="ic-head">收益結構偏被動，集中度風險偏高</div>
+        <ul class="clean red-bullet" style="margin-top:6px">
+          <li>少數合作夥伴佔授權金收入相當高比重，單一關係變動將顯著影響整體收益</li>
+          <li>主要既存合約於近期到期，預期將造成相當規模的收入缺口</li>
+          <li>主動共創結構才剛起步</li>
+        </ul>
+      </div>
+      <div class="issue-card">
+        <div class="ic-head">遊憩設施授權的擴展</div>
+        <p style="font-size:13px;margin-bottom:6px">目前合作的遊憩設施僅一店。遊憩設施在授權事業中屬於最理想型態（每月穩定授權收入＋場內物販＋品牌曝光）。第二店若實現，可同時達到<strong>收益穩定、與物販的綜效、品牌認知擴散</strong>三項效果。</p>
+        <ul class="clean red-bullet" style="margin-top:6px">
+          <li>第二店候選地點選定與合作夥伴洽談持續進行</li>
+          <li>需要建立出店條件（區位、規模、夥伴經營體力）的評估準則</li>
+        </ul>
+      </div>
+
+      <h3 class="sub-title red-bar">第二部：LC8T 各階段的課題</h3>
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-head"><span class="ch-tag">L 段</span> BCL 取得</div>
+          <div class="card-body">
+            <p style="font-size:13px;font-weight:700;color:var(--navy);margin-bottom:4px">量看得到，質看不到</p>
+            <ul class="clean red-bullet" style="margin-bottom:10px">
+              <li>流入來源追蹤尚未完整，難以判別各通路 BCL 的品質</li>
+              <li>Meta 廣告 ROI 不易掌握，缺乏最適廣告投入水位的判斷依據</li>
+              <li>SHOPLINE 購買時的 LINE 綁定，孩子生日資訊可能未完整取得</li>
+            </ul>
+            <p style="font-size:13px;font-weight:700;color:var(--navy);margin-bottom:4px">綁定理由的價值訴求偏弱</p>
+            <ul class="clean red-bullet" style="margin-bottom:0">
+              <li>不同家長類型的訴求點不同，單一訊息難以全面打中</li>
+              <li>自有媒體導流到 BCL 的設計尚未啟動</li>
+              <li>舞台劇現場的 BCL 化尚未有效運作</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-head"><span class="ch-tag">C 段</span> Community</div>
+          <div class="card-body">
+            <p style="font-size:13px;font-weight:700;color:var(--navy);margin-bottom:4px">內容命中率仍有落差</p>
+            <ul class="clean red-bullet" style="margin-bottom:10px">
+              <li>內容矩陣中，部分主題、月齡、週次組合系統性轉換偏低</li>
+              <li>CHANGE・TWEAK 改善循環已啟動，但全面標準化尚在進行</li>
+            </ul>
+            <p style="font-size:13px;font-weight:700;color:var(--navy);margin-bottom:4px">標籤與 LC8T 串接品質尚不透明</p>
+            <ul class="clean red-bullet" style="margin-bottom:0">
+              <li>反應是否正確累積為標籤、是否串接至 8 段、T 段，可視化仍不足</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-head"><span class="ch-tag">8 段</span> Super8</div>
+          <div class="card-body">
+            <p style="font-size:13px;font-weight:700;color:var(--navy);margin-bottom:4px">ACTS 尚未完全自動化</p>
+            <ul class="clean red-bullet" style="margin-bottom:10px">
+              <li>Super8 技術規格（月齡欄位、劇本分支、相對時間軸）確認中</li>
+              <li>多商品 × 多波次的推送素材（文案、圖像、LP）尚未完成設計</li>
+              <li>高意願者自動抽取的條件定義尚未確定</li>
+            </ul>
+            <p style="font-size:13px;font-weight:700;color:var(--navy);margin-bottom:4px">其他</p>
+            <ul class="clean red-bullet" style="margin-bottom:0">
+              <li>GA4 未完整佈設，SP 活動的 ROI 量測仍不足</li>
+              <li>ACTS、SP 活動、電話行銷集中於同一群 BCL，名單疲乏風險累積</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-head"><span class="ch-tag">T 段</span> TEL</div>
+          <div class="card-body">
+            <p style="font-size:13px;font-weight:700;color:var(--navy);margin-bottom:4px">名單產出仰賴人工</p>
+            <ul class="clean red-bullet" style="margin-bottom:10px">
+              <li>名單抽取、分類、交付 CS 的全流程仍以人工為主，存在承辦人依賴</li>
+            </ul>
+            <p style="font-size:13px;font-weight:700;color:var(--navy);margin-bottom:4px">未成交者的再培育劇本尚不存在</p>
+            <ul class="clean red-bullet" style="margin-bottom:0">
+              <li>未成交顧客回流至 C・8 段的自動劇本尚未設計</li>
+              <li>未成交者僅從名單中消失，已建立的顧客關係尚未被持續活用</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ========== 08 CUBE ========== -->
+    <section class="section" id="cube">
+      <div class="sec-label">08 ／ DATA INTEGRATION — CUBE</div>
+      <h2 class="sec-title">🧊 LC8T 資料可視化的挑戰</h2>
+      <p class="sec-intro">讓 LC8T 不再依賴推測、而是用實際資料來運轉的整合平台──就是 CUBE。</p>
+
+      <h3 class="sub-title">CUBE 是什麼</h3>
+      <p>要讓 LC8T 真正運作，必須把四個系統（LINE、Community、Super8、TEL）分散的資料<strong>整合為一致的顧客樣貌</strong>。這個整合平台就是資訊事業處正在建置的 <strong>CUBE</strong>（內部 CDP：Customer Data Platform）。</p>
+
+      <h3 class="sub-title">為什麼資料整合很困難</h3>
+      <p>目前台北分公司顧客相關資料分散於多個系統，且各自以不同的顧客 ID 管理，導致<strong>同一位顧客在四個系統中變成四個不同的人</strong>，無法串起一連串的行為。</p>
+      <div class="sys-row mt8">
+        <div class="sys-chip"><div class="sc-name">SHOPLINE</div><div class="sc-id">會員 ID・購買紀錄</div></div>
+        <div class="sys-chip"><div class="sc-name">CRM</div><div class="sc-id">電話接觸紀錄・成交資料</div></div>
+        <div class="sys-chip"><div class="sc-name">LINE</div><div class="sc-id">綁定使用者標籤・行為</div></div>
+        <div class="sys-chip"><div class="sc-name">Super8</div><div class="sc-id">推送反應資料</div></div>
+      </div>
+      <div class="note-box orange-note mt16">
+        <span class="nb-title">無法整合會看不到什麼</span>
+        「這位 LINE 使用者後來在網站購買、之後又透過電話加購」這一連串的顧客行為<em>無法被串起來檢視</em>。這是阻礙 LC8T 成效驗證的最大瓶頸。
+      </div>
+
+      <h3 class="sub-title">客戶歸戶（Identity Resolution）的設計</h3>
+      <p>為解決此問題所設計的就是「客戶歸戶」機制。以各系統持有的 <strong>LINE ID、Email、電話、會員 ID</strong> 作為 Match Keys，串聯不同系統中的同一人，並指派為「<strong>統一 Customer ID（家庭／單位）</strong>」。</p>
+      <figure class="fig mt8">
+        <a href="data-integration%20(1).jpg" target="_blank" rel="noopener noreferrer">
+          <img src="data-integration%20(1).jpg" alt="客戶歸戶與銷貨資料關聯圖（升級版）">
+        </a>
+        <figcaption>
+          <span>圖：客戶歸戶與銷貨資料關聯圖（升級版）― 可歸戶訂單 ＆ 不可歸戶訂單（匿名／團購／Shopee 等）</span>
+          <span class="fc-zoom">點擊放大 →</span>
+        </figcaption>
+      </figure>
+      <p class="mt16">歸戶成功的顧客會被集中到<strong>歸戶主檔（整合顧客主檔）</strong>，將購買紀錄、LINE 行為、電銷紀錄、孩子月齡資訊統合為一份顧客樣貌。而無法以 Match Keys 比對的訂單（匿名購買、Shopee、未提供電話等）則以 Customer ID＝NULL 保留。</p>
+      <div class="grid-2 mt8">
+        <div class="note-box green-note">
+          <span class="nb-title">可歸戶訂單</span>
+          Customer ID 非 NULL 的訂單。與會員 ID 互相串接，可進行<em>顧客單位的分析</em>。
+        </div>
+        <div class="note-box">
+          <span class="nb-title">不可歸戶訂單（匿名／團購／Shopee 等）</span>
+          Customer ID＝NULL。訂單資料仍保留，可用於<em>商品別、通路別、量級分析</em>。
+        </div>
+      </div>
+      <p class="mt16">兩條資料線結合，才能得到<strong>完整的銷售視角</strong>。</p>
+
+      <h3 class="sub-title green-bar">目前進度與結構</h3>
+      <div class="grid-4 mt8 mb16">
+        <div class="kpi-card"><div class="kpi-lbl">已整合主表</div><div class="kpi-num blue">主要事業表單已串接</div><div class="kpi-sub">分批導入中</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">整合資料量</div><div class="kpi-num green">涵蓋 LC8T 多數行為紀錄</div><div class="kpi-sub">持續累積</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">建置主體</div><div class="kpi-num" style="font-size:16px">資訊事業處</div><div class="kpi-sub">內部 CDP</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">尚未完成</div><div class="kpi-num orange">規格訂定中</div><div class="kpi-sub">以推送成效量測為主</div></div>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-head"><span class="ch-tag">已整合</span> 主要資料表</div>
+          <div class="card-body">
+            <ul class="clean green-bullet" style="margin-bottom:0">
+              <li>歸戶主檔（整合顧客主檔）</li>
+              <li>商店會員主檔</li>
+              <li>LINE 會員／LINE 會員標籤表</li>
+              <li>小孩主檔（孩子月齡資訊）</li>
+              <li>銷貨單</li>
+              <li>電銷名單明細表</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-head"><span class="ch-tag">未完成</span> 規格訂定中・尚未取得</div>
+          <div class="card-body">
+            <ul class="clean red-bullet" style="margin-bottom:0">
+              <li>LINE 群發主檔／LINE 群發紀錄<br><span style="font-size:11.5px;color:var(--ink-lite)">（推送成效量測所必須）</span></li>
+              <li>LINE 對話紀錄</li>
+              <li>電話錄音紀錄</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="sub-title">CUBE 的本質目標</h3>
+      <p>CUBE 的目標並非「只是讓資料能夠回答問題」。</p>
+      <p>真正的終點是<strong>讓 P（LTV）＝O×N×CV−I 的每一個因子，都能被實際操作</strong>。為此，不只要把顧客行為資料化，還需要把所有影響獲利的因子──BCL 取得成本、推送施策、商品提案時機、電話行銷的精準度、各通路 CV 率──全部納入資料化體系，才能形成可持續最大化獲利的機制。</p>
+      <p>在 LC8T 的脈絡下，特別重要的是<strong>因果關係的可視化</strong>。我們做了什麼、哪個數字動了？哪一波推送改變了哪一個族群的行為？能讀出這條因果鏈，才能形成下一步行動的判斷軸。</p>
+      <div class="closing-block mt16">
+        <div class="rb-label" style="font-size:11.5px;letter-spacing:.16em;color:#9BC8E8;font-weight:700;margin-bottom:8px">CUBE 的本質目標</div>
+        <div class="rb-big" style="font-size:18px;font-weight:900;color:#fff;line-height:1.7">不靠推測前進，而是<em>把自己的行動與顧客的變化之間的關係當作事實掌握</em>。當這份累積成立，LC8T 就會逐步演進為更精準、更<em>自律的引擎</em>。</div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ========== 09 事業結構概觀 ========== -->
+    <section class="section" id="data">
+      <div class="sec-label">09 ／ BUSINESS STRUCTURE</div>
+      <h2 class="sec-title">📊 事業結構的整體形貌</h2>
+      <p class="sec-intro">本節以結構性描述呈現各事業在公司整體中的角色與份量，協助掌握「相對大小、毛利特徵、成本特性」的整體形貌。</p>
+
+      <!-- 全社サマリー KPI -->
+      <h3 class="sub-title">全社結構特徵</h3>
+      <div class="grid-4 mt8">
+        <div class="kpi-card"><div class="kpi-lbl">營收結構</div><div class="kpi-num blue">三支柱主導</div><div class="kpi-sub">物販／舞台劇／授權金</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">毛利率</div><div class="kpi-num green">中高水位</div><div class="kpi-sub">授權金最高</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">本業營益</div><div class="kpi-num red">尚未轉正</div><div class="kpi-sub">距離結構性獲利一步之遙</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">EBITDA</div><div class="kpi-num green">接近平衡</div><div class="kpi-sub">轉型中持續改善</div></div>
+      </div>
+
+      <h4 class="mini-title mt24">三支柱事業結構</h4>
+      <div class="tbl-wrap">
+        <table class="data-tbl">
+          <thead><tr><th>事業</th><th>營收規模</th><th>毛利率特徵</th><th>結構特徵</th></tr></thead>
+          <tbody>
+            <tr><td>物販（學習商品）</td><td>規模次大</td><td>中高</td><td>LC8T 主戰場，與整體損益直接連動</td></tr>
+            <tr><td>舞台劇</td><td>規模最大</td><td>中等</td><td>規模穩定，受場次與滿座率影響</td></tr>
+            <tr><td>授權金（IP 授權）</td><td>規模相對較小</td><td>最高</td><td>近乎零原物料成本，但集中度高</td></tr>
+            <tr class="row-total"><td>三支柱合計</td><td>多數營收來源</td><td>整體中高水位</td><td>本分公司的收益基本盤</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4 class="mini-title mt16">其他事業</h4>
+      <div class="tbl-wrap">
+        <table class="data-tbl">
+          <thead><tr><th>事業</th><th>結構特徵</th></tr></thead>
+          <tbody>
+            <tr><td>周邊商品（巧連智整合後）</td><td>支援物販的補充類別</td></tr>
+            <tr><td>巧連智數位經典</td><td>數位資產延伸，規模有限</td></tr>
+            <tr><td>Mirafeel（其他物販）</td><td>對少子化風險的避險型類別</td></tr>
+            <tr><td>新媒體（YouTube 等）</td><td>品牌與導流性質</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4 class="mini-title mt16">銷售通路結構</h4>
+      <div class="tbl-wrap">
+        <table class="data-tbl">
+          <thead><tr><th>通路</th><th>地位／角色</th></tr></thead>
+          <tbody>
+            <tr><td>SHOPLINE（自有 Web）</td><td>佔比最大，自購資料完整累積</td></tr>
+            <tr><td>CRM（電話行銷）</td><td>佔比次大，顧客品質最高</td></tr>
+            <tr><td>ERP（授權・舞台劇等）</td><td>三支柱中授權與舞台劇的對外結算窗口</td></tr>
+            <tr><td>SHOPEE（EC）</td><td>外部 EC 觸及，相對較小規模</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 舞台劇 -->
+      <h3 class="sub-title">舞台劇 演出結構</h3>
+      <div class="grid-4 mt8 mb16">
+        <div class="kpi-card"><div class="kpi-lbl">場次</div><div class="kpi-num">具規模化巡演</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">觀眾規模</div><div class="kpi-num blue">穩定累積</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">票房</div><div class="kpi-num green">三支柱中最大</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">平均票價</div><div class="kpi-num">家庭親子定位</div></div>
+      </div>
+      <div class="tbl-wrap">
+        <table class="data-tbl">
+          <thead><tr><th>演出種別</th><th>定位</th></tr></thead>
+          <tbody>
+            <tr><td>大型舞台劇（自製）</td><td>票房結構主體</td></tr>
+            <tr><td>英語劇（自製）</td><td>差異化內容延伸</td></tr>
+            <tr><td>音樂劇・Musicalia（授權）</td><td>內容多樣化，風險由劇團承擔</td></tr>
+            <tr><td>特別公演・耶誕（授權）</td><td>節慶檔期的小規模演出</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- BCL -->
+      <h3 class="sub-title">BCL（顧客基盤）結構</h3>
+      <div class="grid-4 mt8 mb16">
+        <div class="kpi-card"><div class="kpi-lbl">BCL 累積</div><div class="kpi-num blue">已建立規模化基盤</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">有效率</div><div class="kpi-num green">維持多數有效</div><div class="kpi-sub">封鎖比率受控</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">嬰幼兒族群滲透</div><div class="kpi-num">具一定覆蓋</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">年度新增</div><div class="kpi-num">多通路收集</div></div>
+      </div>
+      <div class="grid-21">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="mini-title">BCL 的月齡結構特徵</h4>
+            <p style="font-size:13px;margin:0">目前有效 BCL 中，<strong>偏重高月齡層（B、A2）</strong>，而最重要的 SS（7〜12M）佔比偏低。<strong>低月齡層母數（N）的薄弱，是物販課題的根源</strong>。</p>
+          </div>
+        </div>
+        <div class="note-box orange-note" style="align-self:start">
+          <span class="nb-title">這裡能看見課題</span>
+          有效 BCL 集中於高月齡，而需要轉換與長 LTV 的低月齡層母數明顯不足。
+        </div>
+      </div>
+      <div class="tbl-wrap mt16">
+        <table class="data-tbl">
+          <thead><tr><th>分級</th><th>月齡</th><th>結構性定位</th></tr></thead>
+          <tbody>
+            <tr><td>SS</td><td>7〜12M</td><td>母數最不足、卻最關鍵</td></tr>
+            <tr><td>S1</td><td>0〜6M</td><td>潛在轉換最高，需要持續強化取得</td></tr>
+            <tr><td>S2</td><td>13〜24M</td><td>核心客層之一</td></tr>
+            <tr><td>AA</td><td>25〜36M</td><td>持續回購對象</td></tr>
+            <tr><td>A2</td><td>37〜60M</td><td>有效 BCL 中佔比偏高</td></tr>
+            <tr><td>B</td><td>61M 以上</td><td>目前營收支撐層</td></tr>
+            <tr><td>A1</td><td>孕期</td><td>產前的潛在客層</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 費用構造 -->
+      <h3 class="sub-title">成本結構</h3>
+      <div class="grid-2 mt8">
+        <div class="card"><div class="card-body">
+          <h4 class="mini-title">全社成本構成</h4>
+          <p style="font-size:13px;margin:0">主要由<strong>銷售成本、營業費用（販售費）、一般管理費、人事費</strong>四大類組成。在精簡組織下，多數共通費用近乎固定，毛利規模直接決定損益。</p>
+        </div></div>
+        <div class="card"><div class="card-body">
+          <h4 class="mini-title">一般管理費的結構</h4>
+          <p style="font-size:13px;margin:0">以<strong>租金、折舊、手續費、雜費、勞務費、保險水電等</strong>組成；其中租金與折舊占比較大。折舊在 EBITDA 中為加回項目。</p>
+        </div></div>
+      </div>
+
+      <h3 class="sub-title">IP 授權的結構特徵</h3>
+      <div class="card mt8"><div class="card-body">
+        <p style="font-size:13px;margin:0">授權收入由兩種通路組合而成：<strong>自有直接合約</strong>（含遊憩設施、影音平台、內容提供等多元用途）與<strong>透過代理商</strong>（含嬰幼兒消費用品系列等）。整體呈現<strong>少數合作夥伴佔顯著比重</strong>的集中結構，這是收益穩定性的主要風險，也是主動共創與分散合作的核心動機。</p>
+      </div></div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ========== 10 組織圖 ========== -->
+    <section class="section" id="org">
+      <div class="sec-label">10 ／ ORGANIZATION CHART</div>
+      <h2 class="sec-title">🏢 台北分公司 組織圖</h2>
+      <p class="sec-intro">本分公司組織概觀（AIC4 架構）。點擊處標題可展開／收合，點擊成員姓名可展開職務說明。</p>
+      <iframe class="org-frame" id="orgFrame" title="台北分公司 組織圖" srcdoc="<!DOCTYPE html>
+<html lang=&quot;zh-TW&quot;>
+<head>
+<meta charset=&quot;UTF-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;>
+<title>台北分公司 組織圖（AIC4）</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Helvetica Neue', Arial, 'Noto Sans CJK TC', sans-serif;
+    font-size: 13px;
+    background: #F5F4F0;
+    color: #1a1a1a;
+    padding: 24px 16px 48px;
+    min-height: 100vh;
+  }
+  .page { max-width: 880px; margin: 0 auto; }
+  .page-header { margin-bottom: 20px; padding-bottom: 14px; border-bottom: 1px solid #DDD9D2; }
+  .page-title  { font-size: 16px; font-weight: 500; margin-bottom: 4px; }
+  .page-meta   { font-size: 11px; color: #888; }
+  .dept-block  { border: 1px solid #DDD9D2; border-radius: 10px; overflow: hidden; margin-bottom: 12px; }
+  .dept-header { padding: 10px 14px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; user-select: none; gap: 8px; }
+  .dept-header:hover { filter: brightness(0.96); }
+  .dept-title  { font-size: 13px; font-weight: 500; }
+  .dept-sub    { font-size: 11px; opacity: .75; margin-top: 2px; }
+  .dept-meta   { display: flex; align-items: center; gap: 8px; }
+  .count-badge { font-size: 11px; font-weight: 500; padding: 2px 9px; border-radius: 10px; white-space: nowrap; }
+  .chevron     { font-size: 11px; transition: transform .2s; color: inherit; }
+  .chevron.open { transform: rotate(180deg); }
+  .dept-body   { display: none; padding: 10px 14px 14px; background: #fff; }
+  .dept-body.open { display: block; }
+  .head-row  { display: flex; align-items: flex-start; gap: 10px; padding-bottom: 8px; margin-bottom: 10px; border-bottom: 0.5px solid #E8E6E0; }
+  .avatar    { width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 500; flex-shrink: 0; margin-top: 1px; }
+  .head-name { font-size: 13px; font-weight: 500; }
+  .head-role { font-size: 11px; color: #666; margin-top: 2px; line-height: 1.55; }
+  .team-block { margin-bottom: 10px; }
+  .team-block:last-child { margin-bottom: 0; }
+  .team-label { font-size: 11px; font-weight: 500; color: #666; padding: 3px 8px; background: #F5F4F0; border-radius: 4px; margin-bottom: 5px; letter-spacing: .02em; }
+  .member-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(148px, 1fr)); gap: 4px; }
+  .member      { border-radius: 6px; border: 0.5px solid #E0DDD8; background: #fff; cursor: pointer; overflow: hidden; }
+  .member-top  { display: flex; align-items: center; gap: 6px; padding: 5px 8px; }
+  .member:hover .member-top { background: #F5F4F0; }
+  .m-dot   { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+  .m-name  { font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; }
+  .m-flag  { font-size: 10px; color: #999; margin-left: auto; flex-shrink: 0; white-space: nowrap; }
+  .m-arrow { font-size: 10px; color: #bbb; margin-left: 4px; flex-shrink: 0; transition: transform .18s; }
+  .member.expanded .m-arrow { transform: rotate(180deg); }
+  .m-mission {
+    display: none;
+    font-size: 11px; color: #555; line-height: 1.65;
+    padding: 5px 8px 7px 20px;
+    border-top: 0.5px solid #E8E6E0;
+    background: #FAFAF8;
+  }
+  .member.expanded .m-mission { display: block; }
+  .bottom-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+  .bottom-grid .dept-block { margin-bottom: 0; }
+  .page-footer { margin-top: 20px; padding-top: 12px; border-top: 0.5px solid #DDD9D2; font-size: 11px; color: #aaa; display: flex; flex-wrap: wrap; gap: 14px; }
+  .d-gm .dept-header  { background: #2C2C2A; color: #D3D1C7; }
+  .d-gm .count-badge  { background: #444441; color: #D3D1C7; }
+  .d-gm .avatar       { background: #D3D1C7; color: #2C2C2A; }
+  .d-gm .dept-sub     { color: #888780; }
+  .d-shohin .dept-header { background: #EBF3FC; color: #0C447C; }
+  .d-shohin .count-badge { background: #B5D4F4; color: #0C447C; }
+  .d-shohin .avatar      { background: #B5D4F4; color: #0C447C; }
+  .d-shohin .m-dot       { background: #378ADD; }
+  .d-mktg .dept-header { background: #EEEDFE; color: #3C3489; }
+  .d-mktg .count-badge { background: #CECBF6; color: #3C3489; }
+  .d-mktg .avatar      { background: #CECBF6; color: #3C3489; }
+  .d-mktg .m-dot       { background: #7F77DD; }
+  .d-cx .dept-header { background: #FDF2E2; color: #633806; }
+  .d-cx .count-badge { background: #FAC775; color: #633806; }
+  .d-cx .avatar      { background: #FAC775; color: #633806; }
+  .d-cx .m-dot       { background: #BA7517; }
+  .d-finance .dept-header { background: #E3F5EF; color: #085041; }
+  .d-finance .count-badge { background: #9FE1CB; color: #085041; }
+  .d-finance .avatar      { background: #9FE1CB; color: #085041; }
+  .d-finance .m-dot       { background: #1D9E75; }
+  .d-it .dept-header { background: #FAECE7; color: #712B13; }
+  .d-it .count-badge { background: #F5C4B3; color: #712B13; }
+  .d-it .avatar      { background: #F5C4B3; color: #712B13; }
+  .d-it .m-dot       { background: #D85A30; }
+  .d-admin .dept-header { background: #FBEAF0; color: #72243E; }
+  .d-admin .count-badge { background: #F4C0D1; color: #72243E; }
+  .d-admin .avatar      { background: #F4C0D1; color: #72243E; }
+  .d-admin .m-dot       { background: #D4537E; }
+  @media print {
+    body { background: #fff; padding: 16px; }
+    .dept-body, .m-mission { display: block !important; }
+    .chevron, .m-arrow { display: none; }
+    .dept-header, .member { cursor: default; }
+  }
+  @media (max-width: 500px) {
+    .member-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
+    .bottom-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class=&quot;page&quot;>
+
+  <div class=&quot;page-header&quot;>
+    <div class=&quot;page-title&quot;>🏢 台北分公司 組織圖</div>
+    <div class=&quot;page-meta&quot;>本分公司組織概觀（AIC4 架構）　點擊處標題可展開／收合、點擊成員姓名可展開職務說明　v ／ 2026-05</div>
+  </div>
+
+  <!-- ── 總經理室 ── -->
+  <div class=&quot;dept-block d-gm&quot;>
+    <div class=&quot;dept-header&quot; onclick=&quot;toggleDept(this)&quot;>
+      <div><div class=&quot;dept-title&quot;>總經理室</div><div class=&quot;dept-sub&quot;>經營策略・全社統籌</div></div>
+      <div class=&quot;dept-meta&quot;><span class=&quot;count-badge&quot;>團隊</span><span class=&quot;chevron&quot;>▼</span></div>
+    </div>
+    <div class=&quot;dept-body&quot;>
+      <div class=&quot;head-row&quot;>
+        <div class=&quot;avatar&quot;>小</div>
+        <div>
+          <div class=&quot;head-name&quot;>小沼和幸（總經理）</div>
+          <div class=&quot;head-role&quot;>主導從舊事業模式轉型為「IP × SKU × 資料」型公司。推動 EBITDA 目標達成、單品／舞台劇／IP 授權的收益確立、成本最適化與組織生產力提升。</div>
+        </div>
+      </div>
+      <div class=&quot;team-block&quot;>
+        <div class=&quot;team-label&quot;>〔經營策略組〕</div>
+        <div class=&quot;member-grid&quot;>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot; style=&quot;background:#888780&quot;></div><div class=&quot;m-name&quot;>王詩雅</div><div class=&quot;m-flag&quot;>BI</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>彙整事業 KPI 與經營資料，建立財務儀表板。負責 AI 工具導入與知識管理的推動。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot; style=&quot;background:#888780&quot;></div><div class=&quot;m-name&quot;>張育菱</div><div class=&quot;m-flag&quot;>LC8T</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立低成本、可複製的 BCL 取得機制。整合 LINE 與 CDP 資料推動 LC8T 自動化行銷，著重名單品質管理（提升低月齡比率）與 LC8T 的完整運轉。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot; style=&quot;background:#888780&quot;></div><div class=&quot;m-name&quot;>陳少琪</div><div class=&quot;m-flag&quot;>LINE OA</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>企劃與執行新客取得活動與異業合作。負責 LINE 官方帳號（OA）營運管理，設計與維持每週的顧客接觸節奏。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot; style=&quot;background:#888780&quot;></div><div class=&quot;m-name&quot;>阿比留華</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>參與 LC8T 的 L、C 段，協助溝通流程改善與資料庫價值提升。依 P＝O×N×CV−I 框架研擬與執行 LC8T 改善方案。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot; style=&quot;background:#888780&quot;></div><div class=&quot;m-name&quot;>竹下友梨</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>推動授權、日本良品銷售等案件，透過引導本地團隊主導性以促成簽約與營收貢獻。協助規劃 IP 以外的日本企業合作擴展計畫。</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── 商品事業處 ── -->
+  <div class=&quot;dept-block d-shohin&quot;>
+    <div class=&quot;dept-header&quot; onclick=&quot;toggleDept(this)&quot;>
+      <div><div class=&quot;dept-title&quot;>商品事業處</div><div class=&quot;dept-sub&quot;>學習商品開發 / 品牌授權 / 表演活動</div></div>
+      <div class=&quot;dept-meta&quot;><span class=&quot;count-badge&quot;>團隊</span><span class=&quot;chevron&quot;>▼</span></div>
+    </div>
+    <div class=&quot;dept-body&quot;>
+      <div class=&quot;head-row&quot;>
+        <div class=&quot;avatar&quot;>江</div>
+        <div><div class=&quot;head-name&quot;>江美齡（處長）</div><div class=&quot;head-role&quot;>統籌商品事業處的營運管理與專案推動。定義巧虎品牌授權的成長策略，推動「可持續經營」的品牌發展方向，確保部門目標達成與整體經營效益。</div></div>
+      </div>
+      <div class=&quot;team-block&quot;>
+        <div class=&quot;team-label&quot;>〔學習商品開發組〕</div>
+        <div class=&quot;member-grid&quot;>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>陳瓊芳</div><div class=&quot;m-flag&quot;>PD</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>定義「新一代數位平台＋實體商品」的產品方向與最小可行範圍。統籌學習商品的整體開發策略，管理專案進度與成本／利潤。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>于安平</div><div class=&quot;m-flag&quot;>教材</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>負責學習教材的企劃與製作，規劃內容架構與學習設計，管理多媒體製作流程與品質。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>陳勝朋</div><div class=&quot;m-flag&quot;>YT</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>營運官方 YouTube 頻道、數位學習網站與 App 平台。負責影音內容的編輯製作與跨平台宣傳，並推動新一代數位學習平台的設計與上線準備。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>陳乃菁</div><div class=&quot;m-flag&quot;>教材</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>負責套組商品的企劃與品質管理，整合繪本、影音、教具等多媒體設計，確保教育目標與使用者體驗的一致性。</div></div>
+        </div>
+      </div>
+      <div class=&quot;team-block&quot;>
+        <div class=&quot;team-label&quot;>〔品牌授權策略組〕</div>
+        <div class=&quot;member-grid&quot;>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>謝惠琪</div><div class=&quot;m-flag&quot;>IP</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立新客開發目標清單與優先順序方法，形成穩定的授權合作提案管道。明確化「巧虎夢想樂園」第二店的合作評估條件並推動展店。同時負責影音內容的二次利用與授權業務。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>劉玉珊</div><div class=&quot;m-flag&quot;>樂園</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>開發與評估潛在授權合作夥伴，企劃授權活動與展演。推動巧虎夢想樂園平日集客穩定化與假日滿座率，並積極推進第二店候選地點與合作洽談。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>陳伊柔</div><div class=&quot;m-flag&quot;>活動</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立「活動招商＋活動企劃」的價值溝通框架（可重複使用的提案套件）。執行商品、空間、活動的授權業務，推動授權合作深化與周邊商品企劃。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>陳怡如</div><div class=&quot;m-flag&quot;>周邊</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立平台成效追蹤與補充、更新的固定節奏。處理對日中的影音二次利用申請，負責周邊商品的採購、製作與跨境 EC 商品開發。</div></div>
+        </div>
+      </div>
+      <div class=&quot;team-block&quot;>
+        <div class=&quot;team-label&quot;>〔表演活動組〕</div>
+        <div class=&quot;member-grid&quot;>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>沈美君</div><div class=&quot;m-flag&quot;>舞台</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立舞台劇會員制度，打造穩定的回流機制（LINE 分眾、定期場次）。推動異業合作與企業包場專案，使其成為穩定的營收來源。統籌年度舞台劇製作與巡演規劃，管理劇團合作、票務銷售與影片配給等。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>藍靜儀</div><div class=&quot;m-flag&quot;>物販</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立「小批量也能成立、能售罄」的舞台劇現場商品開發與選品手法，提升單場商品營收。建立舞台劇會員卡持續運用機制。負責現場商品的銷售與庫存管理、活動宣傳的視覺設計與物料管理。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>林欣亭</div><div class=&quot;m-flag&quot;>宣傳</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>最適化宣傳發稿與校對節奏，提升跨通路宣傳的完成效率與穩定性。執行表演活動的整合行銷（網路宣傳、異業贊助），統籌票務窗口、客服與會員管理業務。</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── 整合行銷處 ── -->
+  <div class=&quot;dept-block d-mktg&quot;>
+    <div class=&quot;dept-header&quot; onclick=&quot;toggleDept(this)&quot;>
+      <div><div class=&quot;dept-title&quot;>整合行銷處</div><div class=&quot;dept-sub&quot;>數位行銷 / 通路整合 / SNS・EC</div></div>
+      <div class=&quot;dept-meta&quot;><span class=&quot;count-badge&quot;>團隊</span><span class=&quot;chevron&quot;>▼</span></div>
+    </div>
+    <div class=&quot;dept-body&quot;>
+      <div class=&quot;head-row&quot;>
+        <div class=&quot;avatar&quot;>劉</div>
+        <div><div class=&quot;head-name&quot;>劉靜芸（處長）</div><div class=&quot;head-role&quot;>統籌跨通路（含 CS）的行銷預算分配與促銷規則。建立 Mirafeel × 巧虎的推進手法以擴大銷售。整合跨通路資源，確保整體營收目標達成與品牌溝通成效。</div></div>
+      </div>
+      <div class=&quot;team-block&quot;>
+        <div class=&quot;team-label&quot;>〔數位行銷組〕</div>
+        <div class=&quot;member-grid&quot;>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>陳筱昀</div><div class=&quot;m-flag&quot;>通路</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立「全通路 × 全資源」的營運與預算配置決策手法，將官網、蝦皮、SNS、名單資源納入整合規劃。為既有學習套組建立「體感情境價值」的新銷售切入，並以年齡承接路徑串接商品線。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>鍾明雯</div><div class=&quot;m-flag&quot;>Web</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>在官網商品頁建立「學習價值敘事」的標準框架。確立 KOL、KOC、UGC 合作與素材再利用的標準流程。負責巧虎學習館的活動企劃與營運，以 GA4 進行資料分析與庫存管理。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>陳思嘉</div><div class=&quot;m-flag&quot;>廣告</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>有系統地執行廣告素材 A/B 測試，以「家長煩惱＋品牌價值」多角度切入開發素材。推動蝦皮品牌合作以獲取通路曝光，營運 Shopee 官方商城，藉由廣告投放最佳化提升轉換率。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>曹舒涵</div><div class=&quot;m-flag&quot;>SNS</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立 LINE 貼圖的企劃 → 製作 → 上架 → 導流變現的固定流程。有系統地經營 Threads 內容。營運官方 SNS（IG、FB），推動數位典藏學習網，並執行學習商品的 KOL 團購業務。</div></div>
+        </div>
+      </div>
+      <div class=&quot;team-block&quot;>
+        <div class=&quot;team-label&quot;>〔通路整合組〕</div>
+        <div class=&quot;member-grid&quot;>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>周宜柔</div><div class=&quot;m-flag&quot;>LTV</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>將會員與站內轉換打造為「LTV 成長引擎」。以巧虎品牌信任為基礎推動 Mirafeel，建立箱買與利潤結構。負責品牌官網與 Shopline 平台的營運維護，並規劃 SNS 與廣告推廣活動。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>郭怡梅</div><div class=&quot;m-flag&quot;>官網</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>評估巧連智官網 × 育兒便利店的整合可能。以 Super8 Live Chat × 自動旅程 × 會員制度，深化資料庫成長與 LTV 最大化。執行 EDM 行銷發送，負責官網與 Shopline 系統的整合最佳化。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>張菀庭</div><div class=&quot;m-flag&quot;>會員</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立會員分級與回購旅程，打造新客的信任入口與體驗轉換路徑。負責 Mirafeel 尿布系列的品牌行銷與銷售管理，涵蓋預算管理、成效追蹤與異業合作。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>鍾佳臻</div><div class=&quot;m-flag&quot;>成長</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>營運孕媽咪 Facebook 粉專，企劃團購選品與 SNS 互動活動。洽談異業合作以拓展線上業務機會。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>李佳霖</div><div class=&quot;m-flag&quot;>APP</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>強化「SNS × APP × LINE」跨平台導流與雙向連動，提升下載數與回訪率。建立跨境（比比昂、CUNA SELECT）的商品策略與流量轉換整合手法。負責生活周邊商品與新商品的行銷推廣，營運 Baby Mine App。</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── CX 計劃處 ── -->
+  <div class=&quot;dept-block d-cx&quot;>
+    <div class=&quot;dept-header&quot; onclick=&quot;toggleDept(this)&quot;>
+      <div><div class=&quot;dept-title&quot;>CX 計劃處</div><div class=&quot;dept-sub&quot;>LTV 策略 / CS 電話行銷 / 顧客體驗設計</div></div>
+      <div class=&quot;dept-meta&quot;><span class=&quot;count-badge&quot;>團隊</span><span class=&quot;chevron&quot;>▼</span></div>
+    </div>
+    <div class=&quot;dept-body&quot;>
+      <div class=&quot;head-row&quot;>
+        <div class=&quot;avatar&quot;>鮑</div>
+        <div><div class=&quot;head-name&quot;>鮑慧芬（處長）</div><div class=&quot;head-role&quot;>建立 CS 團隊的業績達成管理機制（目標拆解、行動推進、回饋輔導一貫化）。縮小團隊成員間的戰力差距並穩定月度產能。將名單線與非名單線的分流規則、供給節奏、追蹤週期標準化。</div></div>
+      </div>
+      <div class=&quot;team-block&quot;>
+        <div class=&quot;team-label&quot;>〔LTV 策略組〕（ACTS 負責）</div>
+        <div class=&quot;member-grid&quot;>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>賴純美</div><div class=&quot;m-flag&quot;>CRM</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立「不只是名單收集」的可重複互動機制，推動非名單線 CSPD。管理智慧 CS 系統與 CRM 標籤策略，設計自動化互動（ibo）流程。產出高潛力名單支援銷售轉換，目標為穩定的高量級互動與良好的成交率。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>郭姿伶</div><div class=&quot;m-flag&quot;>標籤</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立「商品 × 月齡 × 訊號」的最佳溝通時機判斷手法。以「父母情境」為新主題活化活動標籤名單，提升開封率與點擊率。制定 0〜7 歲會員的名單活化策略，設計月齡別內容推送與互動機制。</div></div>
+        </div>
+      </div>
+      <div class=&quot;team-block&quot;>
+        <div class=&quot;team-label&quot;>〔CS 戰略組〕（電話行銷・客服）</div>
+        <div class=&quot;member-grid&quot;>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>鄭心怡</div><div class=&quot;m-flag&quot;>TL</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立「目標 → 每日行動 → 成交」的可預測銷售管理系統。將高客單價、組合銷售複製為標準化成交引擎。帶領電話銷售團隊執行精準行銷，聚焦業績目標達成與客單價提升。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>張秀美</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>執行電話銷售業務，負責訂單處理、入帳管理與相關事務。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>傅暄</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>執行電話銷售業務，負責訂單處理、入帳管理與相關事務。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>黃秋如</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>執行電話銷售業務。提供高品質的售後服務，主動挖掘顧客需求並推薦合適教材。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>嚴雅怡</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>處理顧客客訴與疑難排解，以專業諮詢承接顧客情緒，並兼任電話銷售業務。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>莊雅涵</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>透過電話依顧客孩子月齡推薦合適教材，處理訂單配送、資料變更等售後服務，並負責 Shopee 聊天室客服。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>張金葵</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>執行客戶服務與商品行銷推廣業務。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>黃鈺茹</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>執行電話銷售業務，處理顧客客訴與售後服務，確保顧客滿意度。</div></div>
+          <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>許世芬</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>執行商品行銷推廣，負責顧客 Email 諮詢回覆。</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── 下段3處 ── -->
+  <div class=&quot;bottom-grid&quot;>
+
+    <!-- 財務處 -->
+    <div class=&quot;dept-block d-finance&quot;>
+      <div class=&quot;dept-header&quot; onclick=&quot;toggleDept(this)&quot;>
+        <div><div class=&quot;dept-title&quot;>財務處</div><div class=&quot;dept-sub&quot;>帳務・稅務・對日報告</div></div>
+        <div class=&quot;dept-meta&quot;><span class=&quot;count-badge&quot;>團隊</span><span class=&quot;chevron&quot;>▼</span></div>
+      </div>
+      <div class=&quot;dept-body&quot;>
+        <div class=&quot;head-row&quot;>
+          <div class=&quot;avatar&quot;>中</div>
+          <div>
+            <div class=&quot;head-name&quot;>中智玄（處長）</div>
+            <div class=&quot;head-role&quot;>建立「前提統一」的損益、預算、現金流管理資料基盤。將新事業、合作案與 TBBS 的因果鏈與假設標準化。統籌台灣法人的財務管理與內控制度，負責對日財務報告。</div>
+          </div>
+        </div>
+        <div class=&quot;team-block&quot;>
+          <div class=&quot;team-label&quot;>〔財務組〕</div>
+          <div class=&quot;member-grid&quot;>
+            <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>傅貞甄</div><div class=&quot;m-flag&quot;>月結</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立「月結 → 預算差異 → 儀表板」的一貫自動化流程，使各事業體損益可即時可視化。執行資金預測與現金流管理，規劃付款與審核流程，確保帳務合規並支援內部稽核。</div></div>
+            <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>許珮珊</div><div class=&quot;m-flag&quot;>帳務</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>將多平台的銷售與物流資料整合為標準報表機制，提升資料一致性與穩定性。標準化收益調整表流程。負責帳務處理、稅務申報與決算作業，執行預算編列與費用管理。</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 資訊事業處 -->
+    <div class=&quot;dept-block d-it&quot;>
+      <div class=&quot;dept-header&quot; onclick=&quot;toggleDept(this)&quot;>
+        <div><div class=&quot;dept-title&quot;>資訊事業處</div><div class=&quot;dept-sub&quot;>IT 基盤・系統整合・資料流通</div></div>
+        <div class=&quot;dept-meta&quot;><span class=&quot;count-badge&quot;>團隊</span><span class=&quot;chevron&quot;>▼</span></div>
+      </div>
+      <div class=&quot;dept-body&quot;>
+        <div class=&quot;head-row&quot;>
+          <div class=&quot;avatar&quot;>白</div>
+          <div><div class=&quot;head-name&quot;>白如雪（處長）</div><div class=&quot;head-role&quot;>統籌資訊事業處的整體營運。推動資訊架構盤點與結構最佳化，建立跨系統整合與資料流通能力。深化 Super8 行銷平台運用以強化 LC8T 的推薦能力，確保行銷與營運系統穩定運轉。</div></div>
+        </div>
+        <div class=&quot;team-block&quot;>
+          <div class=&quot;team-label&quot;>〔資訊組〕</div>
+          <div class=&quot;member-grid&quot;>
+            <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>吳家慶</div><div class=&quot;m-flag&quot;>DB</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>擔任 SQL Server DBA，負責資料庫效能最佳化、安全維護與備份管理。開發 ETL 與報表系統。</div></div>
+            <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>戴詠</div><div class=&quot;m-flag&quot;>整合</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立「訂單 → 金流 → 發票 → 物流 → CS」端到端的整合設計與實作路線圖。確立跨系統資料流與 API、Webhook、DB 接續標準，使多系統資料可關聯、追蹤、擴展。</div></div>
+            <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>吳昌儒</div><div class=&quot;m-flag&quot;>新進</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>（新進同仁）負責全公司同仁的 IT 支援（Help Desk）、業務工具管理、基礎建設建置與維護，以及資訊安全管理。</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 總管理處 -->
+    <div class=&quot;dept-block d-admin&quot;>
+      <div class=&quot;dept-header&quot; onclick=&quot;toggleDept(this)&quot;>
+        <div><div class=&quot;dept-title&quot;>總管理處</div><div class=&quot;dept-sub&quot;>人事・總務・法務・物流</div></div>
+        <div class=&quot;dept-meta&quot;><span class=&quot;count-badge&quot;>團隊</span><span class=&quot;chevron&quot;>▼</span></div>
+      </div>
+      <div class=&quot;dept-body&quot;>
+        <div class=&quot;head-row&quot;>
+          <div class=&quot;avatar&quot;>范</div>
+          <div><div class=&quot;head-name&quot;>范巧惠（處長）</div><div class=&quot;head-role&quot;>建立全公司共通節奏與文化落地的機制（CSPD 日常推進＋跨通路資源連結與風險預警）。將 EC 三通路 × CS × 倉儲 × 配送的端到端節奏整合標準化。統籌人事、總務、法務、物流。</div></div>
+        </div>
+        <div class=&quot;team-block&quot;>
+          <div class=&quot;team-label&quot;>〔統籌整合組〕</div>
+          <div class=&quot;member-grid&quot;>
+            <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>鄧宏毅</div><div class=&quot;m-flag&quot;>法務</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立合約需求釐清的手法與共同語言，讓各部門能清楚表達訴求與底線。建立「一頁談判摘要」標準，將爭點、風險、選項、推薦立場固定格式化。負責企業法務管理（侵權處理、合約審查、個資法遵循、法律風險評估）。</div></div>
+            <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>蔡品媛</div><div class=&quot;m-flag&quot;>HR</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>將福委會由「單向提供」轉型為員工主動提案的互動機制。建立「角色／情境」別的 AIC 學習路徑與範本，讓員工能將 AI 融入日常工作。執行人事管理（招募、培育、留任），規劃內部活動。</div></div>
+            <div class=&quot;member&quot; onclick=&quot;toggleMember(this)&quot;><div class=&quot;member-top&quot;><div class=&quot;m-dot&quot;></div><div class=&quot;m-name&quot;>林昀萱</div><div class=&quot;m-flag&quot;>物流</div><div class=&quot;m-arrow&quot;>▾</div></div><div class=&quot;m-mission&quot;>建立跨通路協調與責任分工的共識機制。確立入庫資料登錄基準、檢核與防呆機制。負責物流倉儲協調與辦公室總務管理，維護辦公環境、設備及零用金管理。</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /bottom-grid -->
+
+  <div class=&quot;page-footer&quot;>
+    <span>本分公司組織概觀</span>
+    <span>架構：AIC4</span>
+    <span>v ／ 2026-05</span>
+  </div>
+
+</div><!-- /page -->
+
+<script>
+function toggleDept(header) {
+  const body = header.nextElementSibling;
+  const ch = header.querySelector('.chevron');
+  const open = body.classList.contains('open');
+  body.classList.toggle('open', !open);
+  ch.classList.toggle('open', !open);
+}
+function toggleMember(card) {
+  card.classList.toggle('expanded');
+}
+</script>
+</body>
+</html>
+"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="brand-stripe" style="margin:0 0 16px;max-width:200px">
+        <span class="bs-blue"></span><span class="bs-gold"></span><span class="bs-red"></span>
+      </div>
+      <div class="pf-row">
+        <span>台北分公司 事業脈絡</span>
+        <span>v ／ 2026-05</span>
+        <span>出處：內部 Confluence</span>
+      </div>
+      <p style="margin-top:10px;font-size:11.5px;color:var(--ink-lite)">本頁樣式依循 Benesse LC8T HTML 樣式指引。內容已抽象化處理，僅描述結構性特徵。</p>
+    </footer>
+
+  </div><!-- /wrap -->
+</main>
+
+<script>
+// 側邊欄：捲動連動顯示
+(function () {
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('#sbNav a'));
+  var sections = navLinks.map(function (a) { return document.querySelector(a.getAttribute('href')); });
+  function onScroll() {
+    var pos = window.scrollY + 120;
+    var current = sections.length - 1;
+    for (var i = 0; i < sections.length; i++) {
+      if (sections[i] && sections[i].offsetTop > pos) { current = i - 1; break; }
+    }
+    if (current < 0) current = 0;
+    navLinks.forEach(function (a, i) { a.classList.toggle('active', i === current); });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  var menuBtn = document.getElementById('menuBtn');
+  var sidebar = document.getElementById('sidebar');
+  menuBtn.addEventListener('click', function () { sidebar.classList.toggle('open'); });
+  navLinks.forEach(function (a) {
+    a.addEventListener('click', function () { sidebar.classList.remove('open'); });
+  });
+})();
+</script>
+</body>
+</html>
